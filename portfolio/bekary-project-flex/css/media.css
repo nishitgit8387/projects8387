@@ -1,0 +1,66 @@
+@media (max-width:500px)
+{
+    .page .header .social{display: block;}
+    .page .header .social .followus{width: 100%;}
+    .page .header .social .followus .links{padding-top: 0%;padding-bottom: 0%;}
+    .page .header .social .call{width: 100%;}
+    .page .header .social .call .calllinks{padding-top: 0%;}
+    .page .header .social .call .calllinks li{margin-left: 10px;}
+    .page .header .navbar .logo,.nav{width: 50%;}
+    .page .header .navbar .logo img{margin: 25px 20px;}
+    .page .header .navbar .nav .navlinks li{display: none;}
+    .page .header .navbar .nav .navlinks .media{display: block;}
+
+    .page .welcome {height: 50%;width: 100%;}
+    .page .welcome .tag{padding-top: 25%;}
+    .page .welcome .tag .title{font-size: 100%;}
+    .page .welcome .tag .titleinfo{font-size: 100%;margin: 0px -40px;text-align: center;}
+    .page .welcome .tag .tagline{font-size: 70%;margin: 0px -150px;}
+
+    .page .service .servicetitle,.serviceinfo{width: 100%;}
+    .page .service .serviceinfo .top,.fresh,.flavors,.professional{display: block;width: 75%;justify-content: space-around;}
+    .page .service .servicetitle p{text-align: center;}
+    .page .service .serviceinfo .top p,.fresh p,.flavors p,.professional p{text-align: center;}
+    
+
+    .page .aboutus .image{width: 100%;}
+    .page .aboutus .info{width: 100%;}
+
+    .page .offer .offertitle h3,.line,ul{width: 100%;padding: 0 15%;margin-top: 25px;}
+    .page .offer .offerinfo .cakes,.cookies,.breads{width: 100%;}
+    .page .offer .offerinfo .cakes .sourdough,.muffin,.amaretti,.croissant,.forest,.Ciabatta{width: 100%;margin: 0 25px;}
+    .page .offer .offerinfo .cakes .sourdough img,.muffin img,.amaretti img,.croissant img,.forest img,.Ciabatta img{height: 50%; border-radius: 50%;}
+    .page .offer .offerinfo .cakes .sourdough h3,.muffin h3,.amaretti h3,.croissant h3,.forest h3,.Ciabatta h3{font-size: 14px;}
+    .page .offer .offerinfo .cakes .sourdough .tag,.muffin .tag,.amaretti .tag,.croissant .tag,.forest .tag,.Ciabatta .tag{width: 50%;margin: 0 5px;font-size: 14px;}
+
+    .page .sales{width: 100%;display: block;text-align: center;}
+    .page .sales .linea{margin:10px 45%;}
+    .page .sales .p1{font-size: 36px; margin-top: 25px;}
+
+
+    .page .team .chefs .rurk,.razer,.sarah,.dutch{width: 100%;margin-top: 20px}
+    .page .team .hover{margin-left: 21%;overflow: hidden;}
+
+    .page .review{width: 100%;}
+    .page .review p{padding: 0% 20%;}
+
+    .page .ordernow .form input{width: 40%;margin-left: 20px;}
+    .page .ordernow .form select{width: 85%;margin-left: 20px;}
+    .page .ordernow .form textarea{width: 85%;margin-left: 20px;}
+
+    .page .blog .info .youtube,.gallery,.vimeo{width: 100%;}
+
+    .page .product .prd1{width: 33.33%;}
+    .page .product .prd2{width: 33.33%;}
+    .page .product .prd3{width: 33.33%;}
+    .page .product .prd4{width: 33.33%;}
+    .page .product .prd5{width: 33.33%;}
+    .page .product .prd6{width: 33.33%;}
+
+    .page .footer{width: 100%;}
+    .page .footer .social ul{padding-top: 50px;}
+    .page .footer .trans .logo img{height: 80px;margin-left: 25%;margin-top: 30px;}
+    .page .footer .copyright{padding-top: 10px;}
+
+   
+}

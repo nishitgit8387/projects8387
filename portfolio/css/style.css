@@ -1,0 +1,314 @@
+* {margin: 0%;padding: 0%;}
+
+.main .header{
+    width: 100%;
+    background:linear-gradient(rgba(0,0,50,0.5),rgba(20,0,0,0.5),rgba(0,50,0,0.5)), url(../images/img4.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 100px;
+}
+.main .header ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    list-style-type: none;
+    
+}
+.main .header ul li{
+    padding: 0 30px;
+}
+.main .header ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    color: lightgray;
+    border:none;
+    border-radius:20px;
+    padding: 5px 8px;
+    transition: 0.5s;
+} 
+.main .header ul li a:hover{
+    color: #fca103;
+    border: 1px solid #fca103;
+}
+.main .header button{
+    border: 2px solid #fca103;
+    border-radius: 5px;
+    padding: 10px 10px;
+    background: white;
+    margin:25px 25px;
+    display: none;
+}
+.main .header button i{
+    font-size: 24px;
+    color: gray;
+}
+.main .header .title{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    
+}
+.main .header .title h1{
+    font-size: 56px;
+    font-family:"Audiowide", sans-serif;
+    font-weight: 600;
+    color: lightgray;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    transition: 0.3s;
+}
+.main .header .title h1:hover{
+    color: #fca103;
+    text-shadow: 2px 2px lightgray;
+}
+
+.main .header .title p{
+    font-size: 28px;
+    font-family:"Audiowide", sans-serif;
+    font-weight: 600;
+    color: lightgray;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    padding-top: 80px;  
+    transition: 0.5s;
+}
+.main .header .title p:hover{
+    color: #fca103;
+    text-shadow: 2px 2px lightgray;
+}
+.main .about{
+    background: lightgray;
+    padding-bottom: 30px;
+}
+.main .about h1{
+    font-size: 30px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 600;
+    color: #fca103;
+    text-align: center;
+    padding-top: 30px;
+}
+.main .about .card{ 
+    width: 90%;
+    display: flex;
+    background: white;
+    margin: 50px 5%;
+    border-radius: 10px;
+    box-shadow: 5px 8px #fca103;
+}
+.main .about .card .profile{
+    width: 50%;
+    text-align: center;
+    padding-top: 50px;   
+}
+.main .about .card .profile img{
+    border-radius: 10%;
+}
+.main .about .card .profile p{
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: gray;
+    font-family: "Audiowide", sans-serif;
+}
+.main .about .card .profile p span{
+    font-size: 16px;
+    font-weight: 300;
+    color: gray;
+    font-family: "Audiowide", sans-serif;
+    padding-left: 5px;
+}
+.main .about .card .aboutme{
+    width: 50%;
+    margin-top: 30px;
+}
+.main .about .card .aboutme h2{
+    padding-top: 50px;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Audiowide", sans-serif;
+    color: #fca103;
+    padding-left: 10%;
+}
+.main .about .card .aboutme p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Audiowide", sans-serif;
+    color: gray;
+    padding: 15px 10%;   
+
+}
+.main .skills .skill1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main .skills h1{
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Audiowide", sans-serif;
+    color: #fca103;
+    margin-top: 25px;
+    text-align: center;
+}
+.main .skills .skill{
+    height: 100px;
+    width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 25px;
+}
+.main .skills .skill h2{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Audiowide", sans-serif;
+    color: gray;
+    padding:10px 5px;
+    transition: 0.5s;
+
+}
+.main .skills .skill h2:hover{
+    color: #fca103;
+}
+.main .education{
+    background: lightgray;
+    margin-bottom: 50px;
+}
+.main .education h1{
+    font-size: 28px;
+    font-family:"Audiowide", sans-serif ;
+    font-weight: 600;
+    color: #fca103;
+    padding-top: 25px;
+    text-align: center;
+}
+.main .education .edu{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+.main .education .edu .ssc,.diploma,.training{
+    width: 25%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 3px 5px #fca103;
+    text-align: center;
+    padding: 3% 0%;
+}
+.main .education .edu h3{
+    font-size: 22px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 600;
+    color: #fca103;
+}
+.main .education .edu p{
+    font-size: 18px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 300;
+    color: gray;
+    padding-top: 20px;
+}
+.main .portfolio h1{
+    font-size: 28px;
+    font-family:"Audiowide", sans-serif ;
+    font-weight: 600;
+    color: #fca103;
+    padding-top: 25px;
+    text-align: center;
+}
+.main .portfolio .port{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+.main .portfolio .port .card{
+    padding-bottom: 40px;
+}
+.main .portfolio .port a img{
+    border-radius: 10px;
+    object-fit: cover;
+}
+.main .portfolio .port .info{
+    border: 2px solid #fca103;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+.main .portfolio .port h2{
+    font-size: 22px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 600;
+    color: gray;
+    text-align: center;
+}
+.main .portfolio .port p{
+    font-size: 20px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 600;
+    color: gray;
+    text-align: center;
+    padding-top: 20px;
+}
+.main .contect{
+    background: lightgray;
+    padding-bottom: 40px;
+}
+.main .contect h1{
+    font-size: 28px;
+    font-family:"Audiowide", sans-serif ;
+    font-weight: 600;
+    color: #fca103;
+    padding-top: 25px;
+    text-align: center;
+}
+.main .contect .card{
+    width: 80%;
+    background: white;
+    margin:40px 10%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 8px #fca103;
+}
+.main .contect .card p{
+    font-size: 20px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 600;
+    color: gray;
+    padding-top: 15px;
+}
+.main .contect .card p i{
+    color: #fca103;
+}
+.main .contect .card ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.main .contect .card ul li{
+    padding: 30px 15px;
+}
+.main .contect .card ul li i{
+    color: gray;
+    font-size: 20px;
+    transition: 0.8s;
+}
+.main .contect .card ul li i:hover{
+    color: #fca103;
+    transform: rotateY(360deg);
+}
+.main .contect .card .p1{
+    font-size: 16px;
+    font-family: "Audiowide", sans-serif ;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+.main .contect .card .p1 span{
+    color: #fca103;
+}
+
+
+

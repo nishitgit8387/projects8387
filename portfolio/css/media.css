@@ -1,0 +1,17 @@
+@media(max-width:500px){
+    
+    .main .header{width: 100%;background-size:cover;}
+    .main .header ul{visibility: hidden;}
+    .main .header button{display: block;}
+    .main .header .title{margin-top: 100px;}
+    .main .header .title h1{font-size: 40px;}
+    .main .about .card{display: block;}
+    .main .about .card .profile{width: 100%;}
+    .main .about .card .aboutme{width: 100%;}
+    .main .skills .skill1{justify-content: space-evenly;}
+    .main .education .edu{display: block;}
+    .main .education .edu .ssc,.diploma,.training{width: 80%;margin: 25px 10%;}
+    .main .portfolio .port{display: block;}
+    .main .portfolio .port .card{width: 80%;margin-left: 10%;}
+    .main .portfolio .port a img{width: 100%;}
+}

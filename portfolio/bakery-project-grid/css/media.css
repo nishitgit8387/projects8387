@@ -1,0 +1,250 @@
+@media (max-width:500px) {
+    * {
+        max-width: 100%;
+    }
+
+    .main .header {
+        display: block;
+    }
+
+    .main .header .info {
+        display: grid;
+        grid-template-columns: 75fr 5fr 5fr 15fr;
+    }
+
+    .main .header .info p {
+        font-size: 10px;
+    }
+
+    .main .header .navbar button {
+        display: block;
+    }
+
+    .main .header .navbar nav {
+        display: none;
+    }
+
+    .main .header .navbar .cart {
+        display: none;
+    }
+
+    .main .header .navbar .logo img {
+        height: 35%;
+        margin:10px 25px;
+    }
+    .main .header .slider{
+        width: 100%;
+    }
+    .main .slider .tag{
+        padding-top: 30%;
+    }
+
+    .main .deal .info1 {
+        display: block;
+    }
+
+    .main .deal .image img {
+        height: 40%;
+        margin-top: 25%;
+    }
+
+    .main .bestseller {
+        margin-top: 30px;
+        overflow: hidden;
+    }
+
+    .main .bestseller .info .line1,
+    .line2 {
+        display: none;
+    }
+
+    .main .bestseller .title h3 {
+        padding-left: 35%;
+        font-size: 16px;
+    }
+
+    .main .bestseller .info {
+        display: block;
+    }
+
+    .main .bestseller .info .heading h1 {
+        margin-left: 20%;
+        font-size: 22px;
+    }
+
+    .main .bestseller .products {
+        display: grid;
+        grid-template-columns: 50fr 50fr;
+        margin-top: -10%;
+    }
+
+    .main .bestseller .products .tag .a1 {
+        padding-left: 65%;
+    }
+
+    .main .offer .info .line1,
+    .line2 {
+        display: none;
+    }
+
+    .main .offer .title h3 {
+        font-size: 16px;
+        padding-left: 32%;
+    }
+
+    .main .offer .info {
+        display: block;
+    }
+
+    .main .offer .info .heading h1 {
+        font-size: 22px;
+        margin-left: 13%;
+    }
+   
+    .main .offer .products .banner2{
+        width: 100%;
+    }
+
+    .main .products1 {
+        display: block;
+    }
+
+    .main .products1 .title {
+        margin: 0% 5%;
+        display: grid;
+        grid-template-columns: 35fr 65fr;
+    }
+
+    .main .products1 .title h1 {
+        font-size: 25px;
+        margin-top: 7px;
+    }
+
+    .main .products1 .hotcake .item1,
+    .newcake .item1 {
+        display: grid;
+        grid-template-columns: 40fr 60fr;
+    }
+
+    .main .products1 .item1 img {
+        height: 50%;
+        margin-left: 10%;
+    }
+
+    .main .products1 .item1 h3 {
+        font-size: 16px;
+    }
+
+    .main .founder {
+        display: block;
+        padding-bottom: 10%;
+    }
+
+    .main .founder .info .title {
+        display: block;
+        margin-left: 10%;
+        padding-top: 25px;
+    }
+
+    .main .founder .info .title .line {
+        display: none;
+    }
+
+    .main .founder .card1 {
+        margin-left: 10%;
+    }
+
+    .main .blogs .title .heading .line {
+        display: none;
+    }
+
+    .main .blogs .pages {
+        display: block;
+    }
+
+    .main .blogs .pages .page1 {
+        height: 49%;
+    }
+
+    .main .blogs .pages .page1 .p2 {
+        font-size: 22px;
+        padding-top: 10%;
+    }
+
+    .main .blogs .pages .page2 {
+        margin-left: 20%;
+        padding-bottom: 20%;
+    }
+
+    .main .blogs .pages .page2 .fore1::before {
+        background-size: cover;
+    }
+
+    .main .blogs .pages .page2 .p2 {
+        font-size: 18px;
+    }
+
+    .main .blogs .pages .p3 {
+        font-size: 14px;
+    }
+
+    .main .blogs .pages .page2 .fore2::before {
+        background-size: cover;
+    }
+
+    .main .blogs .pages .p1 {
+        font-size: 14px;
+    }
+
+    .main .map .form {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .main .aboutus {
+        display: block;
+        margin-top: 105%;
+    }
+
+    .main .aboutus .info {
+        margin: 0% 0%;
+        padding: 10%;
+    }
+
+    .main .aboutus .logo img {
+        height: 20%;
+        margin-top: -5%;
+        margin-left: 10%;
+    }
+
+    .main .aboutus .email {
+        margin: 0% 0%;
+        padding: 15%;
+    }
+
+    .main .aboutus .email .email2 .submit {
+        position: absolute;
+        top: 110%;
+        left: 0;
+        width: 70%;
+    }
+
+    .main .footer {
+        display: block;
+    }
+
+    .main .footer .time,
+    .orders,
+    .connectus {
+        margin: 15% 15%;
+    }
+
+    .main .footer .connectus {
+        padding-bottom: 25px;
+    }
+
+
+}
