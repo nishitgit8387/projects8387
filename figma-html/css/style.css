@@ -1,0 +1,1103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Yellowtail&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* header start */
+.main .header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 69px 0;
+}
+
+.main .header .logo {
+    display: flex;
+    justify-content: center;
+}
+
+.main .header .logo h1 {
+    font-size: 38px;
+    font-family: roboto;
+    font-weight: bold;
+    color: #274C5B;
+    padding: 5px 5px;
+}
+
+.main .header .nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.main .header .nav ul li {
+    padding: 0% 10px;
+}
+
+.main .header .nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: roboto;
+    font-weight: bold;
+    color: #274C5B;
+}
+
+.main .header .nav button {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    background: #b8b8b8;
+    display: none;
+}
+
+.main .header .nav button i {
+    font-size: 36px;
+    color: #274C5B;
+}
+
+.main .header .search form {
+    position: relative;
+}
+
+.main .header .search form input {
+    height: 66px;
+    width: 376px;
+    border-radius: 35px;
+    background: #fafafa;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+}
+
+.main .header .search form button {
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    border: none;
+    background: #274C5B;
+    position: absolute;
+    top: 8%;
+    left: 82%;
+}
+
+.main .header .search form button i {
+    font-size: 21px;
+    color: #fafafa;
+}
+
+.main .header .cart {
+    display: flex;
+    justify-content: center;
+    height: 66px;
+    width: 159px;
+    border: 2px solid #fafafa;
+    border-radius: 35px;
+    position: relative;
+}
+
+.main .header .cart button {
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    background: #274C5B;
+    border: none;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.main .header .cart button i {
+    font-size: 24px;
+    color: #fafafa;
+}
+
+.main .header .cart p {
+    font-size: 18px;
+    font-family: roboto;
+    font-weight: 400;
+    color: #274C5B;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+/* header end */
+
+/* banner start */
+.main .banner {
+    width: 100%;
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.main .banner .images .img1 {
+    position: absolute;
+    top: 78%;
+    left: 86%;
+}
+
+.main .banner .images .img2 {
+    position: absolute;
+    top: 0%;
+    left: 86%;
+}
+
+.main .banner .images .img3 {
+    position: absolute;
+    top: 5%;
+    left: 40%;
+}
+
+.main .banner .images .img4 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.main .banner .images .img5 {
+    position: absolute;
+    top: 18%;
+    left: 8%;
+}
+
+.main .banner .images .img6 {
+    position: absolute;
+    top: 77%;
+    left: 0%;
+}
+
+.main .banner .tag {
+    width: 60%;
+    padding: 250px 200px;
+}
+
+.main .banner .tag h3 {
+    font-size: 36px;
+    font-family: yellowtail;
+    color: #68A47F;
+}
+
+.main .banner .tag p {
+    font-size: 70px;
+    font-family: roboto;
+    color: #274C5B;
+}
+
+.main .banner .tag button {
+    height: 80px;
+    width: 220px;
+    border-radius: 16px;
+    border: none;
+    background: #EFD372;
+    font-size: 20px;
+    font-family: roboto;
+    font-weight: bold;
+    color: #274C5B;
+}
+
+.main .banner .tag button i {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: #335B6B;
+    font-size: 20px;
+    color: #fafafa;
+    padding-top: 2px;
+}
+
+/* banner end */
+
+/* card start */
+.main .card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10% 0;
+
+}
+
+.main .card .tag {
+    width: 50%;
+}
+
+.main .card .natural {
+    height: 367px;
+    width: 682px;
+    background: url(../images/image-13.jpg);
+    border-radius: 16px;
+    padding: 109px 55px;
+}
+
+.main .card .natural h3 {
+    font-size: 36px;
+    font-family: yellowtail;
+    color: #fafafa;
+}
+
+.main .card .natural p {
+    font-size: 40px;
+    font-family: roboto;
+    font-weight: 800;
+    color: #fafafa;
+}
+
+.main .card .offer {
+    height: 367px;
+    width: 682px;
+    background: url(../images/image-14.jpg);
+    border-radius: 16px;
+    padding: 109px 55px;
+}
+
+.main .card .offer h3 {
+    font-size: 36px;
+    font-family: yellowtail;
+    color: #68A47F;
+}
+
+.main .card .offer p {
+    font-size: 40px;
+    font-family: roboto;
+    font-weight: 800;
+    color: #274C5B;
+}
+
+/* card end */
+
+/* Aboutus start */
+.main .aboutus {
+    display: flex;
+    justify-content: space-evenly;
+    background: #fafafa;
+}
+
+.main .aboutus .img {
+    margin: 100px 100px;
+}
+
+.main .aboutus .info .information {
+    width: 70%;
+    margin: 60px 0;
+
+}
+
+.main .aboutus .info .title {
+    font-size: 36px;
+    font-family: yellowtail;
+    color: #68A47F;
+}
+
+.main .aboutus .info .intro {
+    font-size: 50px;
+    font-family: roboto;
+    font-weight: 800;
+    color: #274C5B;
+}
+
+.main .aboutus .info .tagline {
+    font-size: 18px;
+    font-family: Open Sans;
+    color: #525C60;
+}
+
+.main .aboutus .info .tag {
+    display: flex;
+    margin-top: 30px;
+}
+
+.main .aboutus .info .tag img {
+    margin: 20px 10px;
+}
+
+.main .aboutus .info .tag .title2 {
+    font-size: 25px;
+    font-family: roboto;
+    font-weight: 800;
+    color: #274C5B;
+}
+
+.main .aboutus .info .tag .tagline2 {
+    font-size: 18px;
+    font-family: Open Sans;
+    color: #525C60;
+}
+
+.main .aboutus .info button {
+    height: 80px;
+    width: 220px;
+    border-radius: 16px;
+    border: none;
+    background: #274C5B;
+    font-size: 20px;
+    font-family: roboto;
+    font-weight: bold;
+    color: #fafafa;
+    margin-top: 20px;
+}
+
+.main .aboutus .info button i {
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background: #335B6B;
+    padding-top: 4px;
+}
+
+/* Aboutus end */
+
+/* products start */
+.main .products .title {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.main .products .title h3 {
+    font-size: 36px;
+    font-family: yellowtail;
+    color: #68A47F;
+}
+
+.main .products .title h1 {
+    font-size: 50px;
+    font-family: roboto;
+    font-weight: 800;
+    color: #274C5B;
+}
+
+.main .products .prdinfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+}
+
+.main .products .prdinfo .prd {
+    height: 483px;
+    width: 335px;
+    background: #f9f8f8;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.main .products .prdinfo .prd .intro {
+    height: 31px;
+    width: max-content;
+    border-radius: 8px;
+    background: #274C5B;
+    transform: translateY(15px) translateX(15px);
+}
+
+.main .products .prdinfo .prd .intro p {
+    font-size: 15px;
+    font-family: open sans;
+    font-weight: 400;
+    color: #fafafa;
+    padding: 5px 10px;
+}
+
+.main .products .prdinfo .prd img {
+    margin-top: 25px;
+    object-fit: cover;
+}
+
+.main .products .prdinfo .prd h3 {
+    font-size: 20px;
+    font-family: roboto;
+    font-weight: 400;
+    color: #274C5B;
+    padding: 15px 25px;
+}
+
+.main .products .prdinfo .prd .price {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 2px solid #b8b8b8;
+
+}
+
+.main .products .prdinfo .prd .price .amount del {
+    font-size: 15px;
+    font-family: open sans;
+    font-weight: 400;
+    color: #b8b8b8;
+    padding-right: 5px;
+}
+
+.main .products .prdinfo .prd .price .amount {
+    font-size: 18px;
+    font-family: open sans;
+    font-weight: bold;
+    color: #274C5B;
+    margin-top: 10px;
+}
+
+.main .products .prdinfo .prd .price .rating span {
+    font-size: 20px;
+    color: #ffa858;
+    margin-top: 10px;
+}
+
+.main .products button {
+    height: 80px;
+    width: 220px;
+    border-radius: 16px;
+    border: none;
+    background: #274C5B;
+    font-size: 20px;
+    font-family: roboto;
+    font-weight: bold;
+    color: #fafafa;
+    margin-top: 20px;
+    transform: translate(600px, 50px);
+    margin-bottom: 100px;
+
+}
+
+.main .products button i {
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background: #335B6B;
+    padding-top: 4px;
+}
+
+/* products end */
+
+/* testimonial start */
+.main .testimonial {
+    position: relative;
+    background: #f9f8f8;
+}
+
+.main .testimonial .images .img-2 {
+    position: absolute;
+    top: 0%;
+    left: 70.3%;
+}
+
+.main .testimonial .review {
+    width: 780px;
+    position: absolute;
+    top: 12%;
+    left: 28%;
+    text-align: center;
+}
+
+.main .testimonial .review .title {
+    font-size: 36px;
+    font-family: yellowtail;
+    color: #68A47F;
+}
+
+.main .testimonial .review .tagline {
+    font-size: 50px;
+    font-family: roboto;
+    font-weight: 800;
+    color: #274C5B;
+
+}
+
+.main .testimonial .review .photo10 {
+    height: 115px;
+    width: 115px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 60px;
+}
+
+.main .testimonial .review .rating span {
+    font-size: 20px;
+    color: #ffa858;
+    margin-top: 20px;
+}
+
+.main .testimonial .review .comment {
+    font-size: 18px;
+    font-family: open sans;
+    color: #525C60;
+    margin-top: 30px;
+
+}
+
+.main .testimonial .review .name {
+    font-size: 25px;
+    font-family: roboto;
+    font-weight: 400;
+    color: #274C5B;
+    margin-top: 20px;
+}
+
+.main .testimonial .review .rel {
+    font-size: 15px;
+    font-family: open sans;
+    color: #525C60;
+    margin-top: 10px;
+}
+
+.main .testimonial .counters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+}
+
+.main .testimonial .counters .organic,
+.active,
+.orchads,
+.farming {
+    height: 211px;
+    width: 211px;
+    border-radius: 50%;
+    border: 3px solid #68A47F;
+    background: #f1f1f1;
+    margin-left: 20px;
+}
+
+.main .testimonial .counters .organic h1,
+.orchads h1,
+.active h1,
+.farming h1 {
+    font-size: 50px;
+    font-family: roboto;
+    font-weight: 800;
+    color: #274C5B;
+    text-align: center;
+    margin-top: 22%;
+}
+
+.main .testimonial .counters .organic p,
+.active p,
+.orchads p,
+.farming p {
+    font-size: 18px;
+    font-family: open sans;
+    color: #525C60;
+    text-align: center;
+
+}
+
+/* testimonoal end */
+
+/* offer start */
+.main .offer {
+    background: #274C5B;
+}
+
+.main .offer .title {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 100px 100px;
+}
+
+.main .offer .title .tag h3 {
+    font-size: 36px;
+    font-family: yellowtail;
+    color: #68A47F;
+}
+
+.main .offer .title .tag h1 {
+    font-size: 50px;
+    font-family: roboto;
+    font-weight: 800;
+    color: #ffff;
+}
+
+.main .offer .title .button button {
+    height: 80px;
+    width: 220px;
+    border-radius: 16px;
+    border: none;
+    background: #EFD372;
+    font-size: 20px;
+    font-family: roboto;
+    font-weight: bold;
+    color: #274C5B;
+}
+
+.main .offer .title .button button i {
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background: #335B6B;
+    color: #ffff;
+    padding-top: 4px;
+}
+
+.main .offer .items {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.main .offer .items .item {
+    height: 483px;
+    width: 335px;
+    background: #f9f8f8;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.main .offer .items .item .intro {
+    height: 31px;
+    width: max-content;
+    border-radius: 8px;
+    background: #274C5B;
+    transform: translateY(15px) translateX(15px);
+}
+
+.main .offer .items .item .intro p {
+    font-size: 15px;
+    font-family: open sans;
+    font-weight: 400;
+    color: #fafafa;
+    padding: 5px 10px;
+}
+
+.main .offer .items .item img {
+    margin-top: 25px;
+    object-fit: cover;
+}
+
+.main .offer .items .item h3 {
+    font-size: 20px;
+    font-family: roboto;
+    font-weight: 400;
+    color: #274C5B;
+    padding: 15px 25px;
+}
+
+.main .offer .items .item .price {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 2px solid #b8b8b8;
+
+}
+
+.main .offer .items .item .price .amount del {
+    font-size: 15px;
+    font-family: open sans;
+    font-weight: 400;
+    color: #b8b8b8;
+    padding-right: 5px;
+}
+
+.main .offer .items .item .price .amount {
+    font-size: 18px;
+    font-family: open sans;
+    font-weight: bold;
+    color: #274C5B;
+    margin-top: 10px;
+}
+
+.main .offer .items .item .price .rating span {
+    font-size: 20px;
+    color: #ffa858;
+    margin-top: 10px;
+}
+
+/* offer end */
+
+/* ecofriendly start */
+.main .ecofriendly {
+    position: relative;
+}
+
+.main .ecofriendly .info {
+    width: 40%;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    background: #ffff;
+    border-radius: 30px;
+    padding: 25px 30px;
+}
+
+.main .ecofriendly .info .title h3 {
+    font-size: 36px;
+    font-family: yellowtail;
+    color: #68A47F;
+    padding-top: 25px;
+
+}
+
+.main .ecofriendly .info .title h1 {
+    font-size: 50px;
+    font-family: roboto;
+    font-weight: 800;
+    color: #274C5B;
+}
+
+.main .ecofriendly .info .tag h2 {
+    font-size: 25px;
+    font-family: roboto;
+    font-weight: 600;
+    color: #274C5B;
+    padding-top: 25px;
+}
+
+.main .ecofriendly .info .tag p {
+    font-size: 18px;
+    font-family: open sans;
+    font-weight: bold;
+    color: #525C60;
+    padding-top: 10px;
+}
+
+/* ecofriendly end */
+
+/* spitems start */
+.main .spitems {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 150px 0%;
+    background: #f1f8f4;
+}
+
+.main .spitems .juice,
+.food,
+.cookis {
+    position: relative;
+}
+
+.main .spitems .juice .name,
+.food .name,
+.cookis .name {
+    position: absolute;
+    top: 35%;
+    left: 22%;
+    height: 100px;
+    width: 250px;
+    border-radius: 20px;
+    background: #ffff;
+    font-size: 25px;
+    font-family: roboto;
+    font-weight: 500;
+    color: #274C5B;
+    text-align: center;
+    padding-top: 35px;
+}
+
+/* spitems end */
+
+/* news start */
+.main .news .info {
+    width: 88%;
+    margin: 10% 6%;
+}
+
+.main .news .info .title {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main .news .info .title .tag {
+    width: 60%;
+}
+
+.main .news .info .title .tag h3 {
+    font-size: 36px;
+    font-family: yellowtail;
+    color: #68A47F;
+}
+
+.main .news .info .title .tag h1 {
+    font-size: 50px;
+    font-family: roboto;
+    font-weight: 800;
+    color: #274C5B;
+}
+
+.main .news .info .title .button button {
+    height: 80px;
+    width: 220px;
+    border-radius: 16px;
+    border: 3px solid #274C5B;
+    background: #ffff;
+    font-size: 20px;
+    font-family: roboto;
+    font-weight: bold;
+    color: #274C5B;
+    margin-top: 20px;
+}
+
+.main .news .info .title .button button i {
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background: #335B6B;
+    color: #ffff;
+    padding-top: 4px;
+}
+
+.main .news .info .pages {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main .news .info .pages .page {
+    width: 650px;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.main .news .info .pages .page .date {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    height: 82px;
+    width: 82px;
+    border-radius: 50%;
+    background: #ffff;
+    font-size: 25px;
+    font-family: roboto;
+    font-weight: 800;
+    color: #274C5B;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.main .news .info .pages .page .page1 {
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    background: #ffff;
+    border-radius: 30px;
+    padding: 5%;
+    width: 86%;
+}
+
+.main .news .info .pages .page .page1 span {
+    font-size: 18px;
+    font-family: roboto;
+    color: #274C5B;
+}
+
+.main .news .info .pages .page .page1 span i {
+    font-size: 20px;
+    color: #EFD372;
+}
+
+.main .news .info .pages .page .page1 h2 {
+    font-size: 25px;
+    font-weight: 800;
+    font-family: roboto;
+    color: #274C5B;
+    padding-top: 15px;
+}
+
+.main .news .info .pages .page .page1 p {
+    font-size: 18px;
+    font-family: open sans;
+    color: #525C60;
+}
+
+.main .news .info .pages .page .page1 button {
+    height: 80px;
+    width: 220px;
+    border-radius: 16px;
+    border: none;
+    background: #EFD372;
+    font-size: 20px;
+    font-family: roboto;
+    font-weight: bold;
+    color: #274C5B;
+    margin-top: 20px;
+}
+
+.main .news .info .pages .page .page1 button i {
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background: #335B6B;
+    color: #ffff;
+    padding-top: 4px;
+}
+
+.main .news .info .subscribe {
+    background: url(../images/image-25.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 8%;
+    border-radius: 30px;
+}
+
+.main .news .info .subscribe .tag {
+    width: 40%;
+}
+
+.main .news .info .subscribe .tag h1 {
+    font-size: 50px;
+    font-family: roboto;
+    font-weight: 800;
+    color: #ffff;
+}
+
+.main .news .info .subscribe .search form input {
+    height: 80px;
+    width: 350px;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+}
+
+.main .news .info .subscribe .search form button {
+    height: 80px;
+    width: 220px;
+    border-radius: 16px;
+    background: #274C5B;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    font-size: 20px;
+    font-family: roboto;
+    font-weight: bold;
+    color: #ffff;
+}
+
+/* news end */
+
+/* footer start */
+.main .footer .info {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.main .footer .info .contect {
+    width: 25%;
+    text-align: center;
+}
+
+.main .footer .info .contect h2 {
+    font-size: 30px;
+    font-family: roboto;
+    font-weight: bold;
+    color: #274C5B;
+}
+
+.main .footer .info .contect h3 {
+    font-size: 18px;
+    font-family: open sans;
+    font-weight: bold;
+    color: #525C60;
+    padding-top: 18px;
+}
+
+.main .footer .info .contect p {
+    font-size: 18px;
+    font-family: open sans;
+    font-weight: normal;
+    color: #525C60;
+    padding-top: 5px;
+}
+
+.main .footer .info .organick {
+    width: 25%;
+    text-align: center;
+}
+
+.main .footer .info .organick .logo {
+    display: flex;
+    justify-content: center;
+}
+
+.main .footer .info .organick .logo h1 {
+    font-size: 38px;
+    font-family: roboto;
+    font-weight: bold;
+    color: #274C5B;
+    padding: 5px 5px;
+}
+
+.main .footer .info .organick p {
+    font-size: 18px;
+    font-family: open sans;
+    font-weight: normal;
+    color: #525C60;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.main .footer .info .organick .icons ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.main .footer .info .organick .icons ul li {
+    padding: 20px;
+    margin: 15px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: #EFF6F1;
+}
+
+.main .footer .info .organick .icons ul li a i {
+    font-size: 20px;
+    color: #274C5B;
+}
+
+.main .footer .info .utility {
+    width: 25%;
+    text-align: center;
+}
+
+.main .footer .info .utility h2 {
+    font-size: 30px;
+    font-family: roboto;
+    font-weight: bold;
+    color: #274C5B;
+}
+
+.main .footer .info .utility p {
+    font-size: 18px;
+    font-family: open sans;
+    font-weight: normal;
+    color: #525C60;
+    padding-top: 15px;
+}
+
+.main .footer .copyright {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.main .footer .copyright p {
+    font-size: 18px;
+    font-family: open sans;
+    font-weight: normal;
+    color: #525C60;
+}
+
+.main .footer .copyright p span {
+    font-size: 18px;
+    font-family: open sans;
+    font-weight: bold;
+    color: #274C5B;
+}
+
+/* footer end */

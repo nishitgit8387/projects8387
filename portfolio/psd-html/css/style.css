@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* header start */
+.main .header {
+    background: url(../images/Rectangle.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main .header .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.main .header .navbar .logo {
+    padding-left: 25px;
+}
+
+.main .header .navbar .nav .delivery {
+    display: flex;
+    justify-content: center;
+
+}
+
+.main .header .navbar .nav .delivery p {
+    font-size: 17px;
+    font-family: montserrat;
+    font-weight: bold;
+    color: #3d2514;
+    padding: 5px;
+
+}
+
+.main .header .navbar .nav .links ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.main .header .navbar .nav .links ul li {
+    padding: 25px;
+}
+
+.main .header .navbar .nav .links ul li a {
+    text-decoration: none;
+    font-size: 21px;
+    font-family: bebas neue;
+    font-weight: bold;
+    color: #3d2514;
+    letter-spacing: 3px;
+}
+
+.main .header .navbar .nav .links button {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    background: #fff;
+    display: none;
+}
+
+.main .header .navbar .nav .links button i {
+    font-size: 24px;
+    color: #3d2514;
+}
+
+.main .header .info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .header .info .title {
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 100px;
+}
+
+.main .header .info .title .tag {
+    border: 2px dashed #3d2514;
+    padding: 8px;
+    width: fit-content;
+}
+
+.main .header .info .title .tag p {
+    font-size: 24px;
+    font-family: bebas neue;
+    font-weight: normal;
+    color: #3d2514;
+
+}
+
+.main .header .info .title h1 {
+    font-size: 114px;
+    font-family: alfa slab one;
+    color: #3d2514;
+    text-shadow: 3px 3px 5px #fff;
+    letter-spacing: 3px;
+}
+
+.main .header .info .title h3 {
+    font-size: 56px;
+    font-family: alfa slab one;
+    color: #3d2514;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 5px #fff;
+}
+
+.min .header .info {
+    position: relative;
+}
+
+.main .header .info .images .burger {
+    position: absolute;
+    top: 33%;
+    left: 63%;
+    z-index: 10;
+
+}
+
+.main .header .info .images .fries {
+    position: absolute;
+    top: 28%;
+    left: 55%;
+}
+
+.main .header .info .images .drink {
+    position: absolute;
+    top: 26%;
+    left: 80%;
+}
+
+.main .header .info .images .price {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    background: #bf2222;
+    z-index: 20;
+}
+
+.main .header .info .images .price .p {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    border: 2px dashed #fff;
+    text-align: center;
+    margin: 5px;
+    padding-top: 5px;
+}
+
+.main .header .info .images .price p {
+    font-size: 70px;
+    font-family: bebas neue;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.main .header .info .images .price p .amt {
+    font-size: 30px;
+    font-family: bebas neue;
+    font-weight: bold;
+    color: #fff;
+}
+
+.main .header .info .images .price .on {
+    font-size: 33px;
+    font-family: bebas neue;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 4px;
+}
+
+/* header end */
+
+/* tryit start */
+
+.main .tryit {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+    flex-wrap: wrap;
+}
+
+.main .tryit .card1 {
+    height: 425px;
+    width: 600px;
+    background: url(../images/Burger\ Image\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.main .tryit h3 {
+    font-size: 25px;
+    font-family: bebas neue;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.main .tryit h1 {
+    font-size: 42px;
+    font-family: bebas neue;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.main .tryit .card2 .prd2 {
+    height: 200px;
+    width: 600px;
+    background: url(../images/Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    padding: 20px;
+
+}
+
+.main .tryit .card2 .prd3 {
+    height: 200px;
+    width: 600px;
+    background: url(../images/Image\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 25px;
+
+}
+
+/* tryit end */
+
+/* products start */
+
+.main .products .title {
+    text-align: center;
+}
+
+.main .products .title h3 {
+    font-size: 25px;
+    font-family: bebas neue;
+    font-weight: bold;
+    color: #3d2514;
+    letter-spacing: 1px;
+    padding: 5px;
+    background: #ffc045;
+    display: inline;
+}
+
+.main .products .title h1 {
+    font-size: 50px;
+    font-family: alfa slab one;
+    color: #3d2514;
+    letter-spacing: 3px;
+    padding-top: 15px;
+}
+
+.main .products .title p {
+    font-size: 17px;
+    font-family: montserrat;
+    font-weight: normal;
+    color: #3d2514;
+    padding: 0 10%;
+}
+
+.main .products .product {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+
+.main .products .product .prd {
+    text-align: center;
+}
+
+.main .products .product .prd h2 {
+    font-size: 38px;
+    font-family: bebas neue;
+    font-weight: bold;
+    color: #3d2514;
+    letter-spacing: 1px;
+    padding-top: 20px;
+
+}
+
+.main .products .product .prd p {
+    font-size: 17px;
+    font-family: montserrat;
+    font-weight: normal;
+    color: #3d2514;
+    padding: 0 10%;
+}
+
+.main .products .product .prd button {
+    height: 50px;
+    width: 190px;
+    background: #bf2222;
+    border: none;
+    font-size: 17px;
+    font-family: alfa slab one;
+    font-weight: normal;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* products end */
+
+/* events start */
+.main .events {
+    margin: 50px 0;
+}
+
+.main .events .card {
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+    padding: 20px;
+    box-shadow: 5px 10px 15px #3d3d3d;
+
+}
+
+.main .events .card .info {
+    padding: 40px 0;
+}
+
+.main .events .card .info h3 {
+    font-size: 29px;
+    font-family: bebas neue;
+    font-weight: bold;
+    color: #3d3d3d;
+    letter-spacing: 1px;
+
+}
+
+.main .events .card .info h1 {
+    font-size: 42px;
+    font-family: alfa slab one;
+    color: #3d2514;
+    letter-spacing: 1px;
+}
+
+.main .events .card .info p {
+    font-size: 21px;
+    font-family: montserrat;
+    font-weight: normal;
+    color: #3d3d3d;
+    padding: 25px 15px;
+}
+
+/* events end */
+
+/* booking start */
+.main .booking {
+    position: relative;
+    padding: 70px 0;
+    overflow: hidden;
+}
+
+.main .booking .images .img1 {
+    position: absolute;
+    top: 0%;
+    left: -5%;
+}
+
+.main .booking .images .img2 {
+    position: absolute;
+    top: 32%;
+    left: 13%;
+}
+
+.main .booking .images .img3 {
+    position: absolute;
+    top: 32%;
+    left: 83%;
+}
+
+.main .booking .details .info {
+    text-align: center;
+}
+
+.main .booking .details .info h3 {
+    font-size: 29px;
+    font-family: bebas neue;
+    font-weight: bold;
+    color: #3d2514;
+    letter-spacing: 1px;
+}
+
+.main .booking .details .info h1 {
+    font-size: 50px;
+    font-family: alfa slab one;
+    color: #3d2514;
+    letter-spacing: 1px;
+}
+
+.main .booking .details form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px 0%;
+}
+
+.main .booking .details form input {
+    height: 65px;
+    width: 350px;
+    border: 2px solid #bebebe;
+    border-radius: 8px;
+    margin: 10px 10px;
+    outline: none;
+    font-size: 17px;
+    padding-left: 10px;
+
+}
+
+.main .booking .details form .submit {
+    height: 65px;
+    width: 350px;
+    border: none;
+    background: #bf2222;
+    border-radius: 8px;
+    margin: 10px 10px;
+    text-align: center;
+    font-size: 21px;
+    font-family: alfa slab one;
+    letter-spacing: 1px;
+    color: #fff;
+
+}
+
+/* booking end */
+/* footer start */
+.main .footer .card {
+    width: 90%;
+    background: url(../images/Place\ Your\ Design\ Here\ \(Double\ Click\ to\ Edit\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 50px 5%;
+}
+
+.main .footer .card .info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main .footer .card .info .logo {
+    width: 50%;
+    padding: 80px 30px;
+}
+
+.main .footer .card .info .logo p {
+    font-size: 17px;
+    font-family: montserrat;
+    font-weight: normal;
+    color: #fff;
+    padding-top: 25px;
+}
+
+.main .footer .card .info .location {
+    padding-top: 15%;
+    padding-right: 50px;
+}
+
+.main .footer .card .info .location p {
+    font-size: 21px;
+    font-family: bebas neue;
+    font-weight: 400;
+    color: #fff;
+
+}
+
+.main .footer .card .social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .footer .card .social p {
+    font-size: 17px;
+    font-family: bebas neue;
+    font-weight: normal;
+    color: #fff;
+    margin: 15px 20px;
+}
+
+.main .footer .card .social ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.main .footer .card .social ul li {
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    margin: 10px;
+    padding-top: 4px;
+}
+
+.main .footer .card .social ul li a {
+    font-size: 17px;
+    color: #3d3d3d;
+
+}
+
+/* footer end */

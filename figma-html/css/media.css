@@ -1,0 +1,310 @@
+@media(max-width:600px) {
+    /* header start */
+
+    .main .header {
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    .main .header .logo,
+    .nav,
+    .search,
+    .cart {
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .main .header .nav ul {
+        display: none;
+    }
+
+    .main .header .nav button {
+        display: block;
+    }
+
+    .main .header .search form {
+        transform: scale(0.7);
+        margin-top: 2%;
+    }
+
+    .main .header .cart {
+        transform: scale(0.7);
+        margin-top: 2%;
+    }
+
+    /* header end */
+
+    /* banner start */
+    .main .banner {
+        width: 100%;
+    }
+
+    .main .banner .tag {
+        transform: scale(0.6);
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    .main .banner .images .img1 {
+        height: 100px;
+        width: 100px;
+    }
+
+    .main .banner .images .img2 {
+        height: 100px;
+        width: 100px;
+    }
+
+    .main .banner .images .img3 {
+        height: 64px;
+        width: 69px;
+    }
+
+    .main .banner .images .img4 {
+        height: 94px;
+        width: 86px;
+    }
+
+    .main .banner .images .img5 {
+        height: 34px;
+        width: 38.5px;
+    }
+
+    .main .banner .images .img6 {
+        height: 100px;
+        width: 100px;
+    }
+
+    /* banner end */
+
+    /* card start */
+    .main .card {
+        width: 98%;
+        padding: 1%;
+    }
+
+    .main .card .offer,
+    .natural {
+        margin-top: 25px;
+    }
+
+    .main .card .tag {
+        transform: scale(0.8);
+        width: 100%;
+    }
+
+    /* card end */
+
+    /* Aboutus start */
+    .main .aboutus {
+        width: 100%;
+        margin-top: 50px;
+        display: block;
+    }
+
+    .main .aboutus .img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0px 0px;
+    }
+
+    .main .aboutus .img img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .main .aboutus .info .information {
+        width: 100%;
+        text-align: center;
+        margin: 0%;
+        transform: scale(0.8);
+    }
+
+    .main .aboutus .info button {
+        margin-left: 30%;
+        margin-bottom: 30px;
+    }
+
+    /* Aboutus end */
+
+    /* products start */
+    .main .products {
+        width: 100%;
+    }
+
+    .main .products button {
+        transform: translate(50%, 40px);
+        margin-bottom: 80px;
+    }
+
+    /* products end */
+
+    /* testimonial start */
+    .main .testimonial {
+        width: 100%;
+        position: relative;
+    }
+
+    .main .testimonial .images img {
+        height: 800px;
+        width: 30%;
+    }
+
+    .main .testimonial .review {
+        width: 100%;
+        transform: scale(0.7);
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+
+    .main .testimonial .counters {
+        width: 100%;
+        transform: scale(0.6);
+        position: absolute;
+        top: 55%;
+        left: 0;
+    }
+
+    .main .testimonial .counters .orchads,
+    .farming {
+        margin-top: 15px;
+    }
+
+    /* testimonial end */
+
+    /* offer start */
+    .main .offer .title .tag h3 {
+        font-size: 18px;
+    }
+
+    .main .offer .title .tag h1 {
+        font-size: 25px;
+    }
+
+    .main .offer .title .button button {
+        transform: scale(0.8);
+    }
+
+    /* offer end */
+
+    /* ecofriendly start */
+
+    .main .ecofriendly {
+        width: 100%;
+        position: relative;
+    }
+
+    .main .ecofriendly .image {
+        width: 100%;
+    }
+
+    .main .ecofriendly .image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main .ecofriendly .info {
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        margin: 50px 0;
+    }
+
+    /* ecofriebdly end */
+
+    /* spitems start */
+    .main .spitems {
+        width: 100%;
+        margin-top: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main .spitems .juice,
+    .food,
+    .cookis {
+        transform: scale(0.8);
+    }
+
+    /* spitems end */
+
+    /* news start */
+    .main .news {
+        width: 100%;
+    }
+
+    .main .news .title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main .news .title .tag {
+        width: 100%;
+        margin-left: 25%;
+    }
+
+    .main .news .info .title .tag h3 {
+        font-size: 18px;
+    }
+
+    .main .news .info .title .tag h1 {
+        font-size: 25px;
+    }
+
+    .main .news .info .title .button {
+        width: 100%;
+        transform: scale(0.8);
+    }
+
+    .main .news .info .pages .page {
+        margin-top: 50px;
+    }
+
+    .main .news .info .subscribe {
+        width: 100%;
+    }
+
+    .main .news .info .subscribe .tag {
+        width: 100%;
+    }
+
+    .main .news .info .subscribe .search {
+        width: 100%;
+        transform: scale(0.8);
+    }
+
+    .main .news .info .subscribe .search form button {
+        width: 350px;
+        margin-top: 10px;
+    }
+
+    /* news end */
+
+    /* footer start */
+    .main .footer {
+        width: 100%;
+    }
+
+    .main .footer .info {
+        width: 100%;
+    }
+
+    .main .footer .info .contect {
+        width: 100%;
+    }
+
+    .main .footer .info .organick {
+        width: 90%;
+        margin: 25px 0;
+    }
+
+    .main .footer .info .utility {
+        width: 100%;
+    }
+
+    /* footer end */
+}

@@ -1,0 +1,233 @@
+@media(max-width:500px) {
+
+    /* header start */
+
+    .main .header {
+        width: 100%;
+    }
+
+    .main .header .navbar {
+        width: 100%;
+        display: block;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 20px;
+    }
+
+    .main .header .navbar .logo {
+        padding-left: 10px;
+        width: 40%;
+    }
+
+    .main .header .navbar .logo img {
+        height: 60%;
+    }
+
+    .main .header .navbar .nav {
+        display: flex;
+        justify-content: space-evenly;
+        width: 60%;
+    }
+
+    .main .header .navbar .nav .delivery {
+        display: block;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 50%;
+    }
+
+    .main .header .navbar .nav .delivery img {
+        height: 40%;
+    }
+
+    .main .header .navbar .nav .delivery p {
+        font-size: 12px;
+    }
+
+    .main .header .navbar .nav .links ul {
+        display: none;
+    }
+
+    .main .header .navbar .nav .links button {
+        display: block;
+    }
+
+    .main .header .info {
+        display: block;
+        position: relative;
+        padding-bottom: 120px;
+    }
+
+    .main .header .info .title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main .header .info .title .tag {
+        margin-left: 16%;
+    }
+
+    .main .header .info .title .tag p {
+        font-size: 16px;
+    }
+
+    .main .header .info .title h1 {
+        font-size: 56px;
+    }
+
+    .main .header .info .title h3 {
+        font-size: 28px;
+    }
+
+    .main .header .info .images .burger {
+        position: absolute;
+        top: 60%;
+        left: 35%;
+        height: 150px;
+    }
+
+    .main .header .info .images .fries {
+        position: absolute;
+        top: 55%;
+        left: 25%;
+        height: 150px;
+    }
+
+    .main .header .info .images .drink {
+        position: absolute;
+        top: 53%;
+        left: 60%;
+        height: 175px;
+    }
+
+    .main .header .info .images .price {
+        transform: scale(0.5);
+        position: absolute;
+        top: 65%;
+        left: 15%;
+    }
+
+    /* hrader end */
+
+    /* tryit start */
+    .main .tryit .card1 {
+        width: 90%;
+    }
+
+    .main .tryit .card2 {
+        width: 90%;
+    }
+
+    .main .tryit .card2 .prd2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .main .tryit .card2 .prd3 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* tryit end */
+
+    /* products start */
+    .main .products .product {
+        display: block;
+    }
+
+    .main .products .product .prd {
+        margin-top: 20px;
+    }
+
+    /* products end */
+
+    /* events start */
+    .main .events .card {
+        display: block;
+        width: 85%;
+    }
+
+    .main .events .card .info h3 {
+        font-size: 15px;
+    }
+
+    .main .events .card .info h1 {
+        font-size: 21px;
+    }
+
+    .main .events .card .info p {
+        font-size: 12px;
+    }
+
+    .main .events .card .image img {
+        width: 100%;
+    }
+
+    /* events end */
+
+    /* booking start */
+    .main .booking {
+        width: 100%;
+        position: relative;
+    }
+
+    .main .booking .images .img1,
+    .img2,
+    .img3 {
+        display: none;
+    }
+
+    .main .booking .details .info {
+        width: 100%;
+        transform: scale(0.8);
+    }
+
+    .main .booking .details form {
+        width: 100%;
+        transform: scale(0.6);
+        margin: -10% 0;
+    }
+
+    /* booking end */
+
+    /* footer start */
+    .main .footer {
+        width: 90%;
+    }
+
+    .main .footer .card {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main .footer .card .info .logo p {
+        padding: 20px 15%;
+    }
+
+    .main .footer .card .info .logo {
+        width: 100%;
+    }
+
+    .main .footer .card .info .logo img {
+        height: 20%;
+    }
+
+    .main .footer .card .info .location {
+        margin-left: 25%;
+        margin-top: -25%;
+    }
+
+    .main .footer .card .social {
+        display: block;
+        text-align: center;
+    }
+
+    .main .footer .card .social ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* footer end */
+
+}

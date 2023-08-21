@@ -1,0 +1,244 @@
+body {
+    background: #f8f9fa;
+}
+
+.header ul button {
+    background: #a8d741;
+    transition: 0.3s;
+
+}
+
+.header button i {
+    color: #a8d741
+}
+
+.header ul button:hover {
+    background: white;
+    transform: rotate(5deg) scale(1.1);
+    box-shadow: 0 0 10px black;
+}
+
+.header .card {
+    background: #a8d741;
+}
+
+.header .card .info .button button {
+    transition: 0.3s;
+    background: black;
+    color: white;
+}
+
+.header .card .info .button button:hover {
+    background: white;
+    color: black;
+    transform: rotate(5deg) scale(1.1);
+    box-shadow: 0 0 10px black;
+}
+
+.features i {
+    font-size: 56px;
+    color: #a8d741;
+}
+
+.info .card {
+    transition: 0.3s;
+}
+
+.info .card:hover {
+    background: white;
+    transform: rotate(-2deg) scale(1.05);
+    box-shadow: 0 0 10px black;
+}
+
+.info .card .button1 i,
+.button2 i {
+    color: #a8d741;
+}
+
+.info .card .button1 {
+    transition: 0.3s;
+    background: white;
+}
+
+.info .card .button1:hover {
+    background: #a8d741;
+    transform: rotate(5deg) scale(1.1);
+    box-shadow: 0 0 10px black;
+}
+
+.info .card .button2 {
+    transition: 0.3s;
+    background: #a8d741;
+}
+
+.info .card .button2:hover {
+    background: white;
+    transform: rotate(5deg) scale(1.1);
+    box-shadow: 0 0 10px black;
+}
+
+.tool .products {
+    background: #a8d741;
+}
+
+.tool .products .prd {
+    transition: 0.3s;
+}
+
+.tool .products .prd:hover {
+    transform: rotate(-2deg) scale(1.05);
+    box-shadow: 0 0 10px black;
+}
+
+.ourshop .products .product1 {
+    background: #e1ebe7;
+    transition: 0.3s;
+}
+
+.ourshop .products .product1:hover {
+    transform: rotate(-2deg) scale(1.05);
+    box-shadow: 0 0 25px black;
+}
+
+.ourshop .products .product1 button {
+    background: #a8d741;
+    transition: 0.3s;
+}
+
+.ourshop .products .product1 button:hover {
+    background: white;
+    transform: rotate(5deg) scale(1.1);
+    box-shadow: 0 0 10px black;
+}
+
+.ourshop .products .product1 .tag {
+    padding-top: 10%;
+}
+
+.ourshop .products .product1 .tag p {
+    padding: 0 25px;
+}
+
+.ourshop .products .product1 .price {
+    padding: 10% 50px;
+}
+
+.ourteam .team {
+    background: #a8d741;
+}
+
+.ourteam .team button {
+    transition: 0.3s;
+    background: #a8d741;
+}
+
+.ourteam .team button:hover {
+    background: white;
+    transform: rotate(5deg) scale(1.1);
+    box-shadow: 0 0 10px black;
+}
+
+.ourteam .team .card {
+    transition: 0.3s;
+}
+
+.ourteam .team .card:hover {
+    transform: rotate(-2deg) scale(1.05);
+    box-shadow: 0 0 10px black;
+}
+
+.view {
+    background: #a8d741;
+}
+
+.view .icon i {
+    color: #a8d741;
+}
+
+.ourpartner .partner {
+    background: #e1ebe7;
+}
+
+.ourpartner .partner button {
+    background: #a8d741;
+}
+
+.ourpartner .partner {
+    transition: 0.3s;
+}
+
+.ourpartner .partner:hover {
+    transform: rotate(-2deg) scale(1.05);
+    box-shadow: 0 0 10px black;
+}
+
+.ourpartner .partner button {
+    background: #a8d741;
+    transition: 0.3s;
+}
+
+.ourpartner .partner button:hover {
+    background: white;
+    transform: rotate(5deg) scale(1.1);
+    box-shadow: 0 0 10px black;
+}
+
+.review {
+    background: #e1ebe7;
+    transition: 0.3s;
+}
+
+.review:hover {
+    transform: rotate(-2deg) scale(1.05);
+    box-shadow: 0 0 10px black;
+}
+
+.review button {
+    background: #a8d741;
+    transition: 0.3s;
+}
+
+.review button:hover {
+    background: white;
+    transform: rotate(5deg) scale(1.1);
+    box-shadow: 0 0 10px black;
+}
+
+.contects .contect .email {
+    background: #e1ebe7;
+    transition: 0.3s;
+}
+
+.contects .contect .email:hover {
+    transform: rotate(-2deg) scale(1.05);
+    box-shadow: 0 0 10px black;
+}
+
+.contects .contect .phone {
+    background: #e1ebe7;
+    transition: 0.3s;
+}
+
+.contects .contect .phone:hover {
+    transform: rotate(-2deg) scale(1.05);
+    box-shadow: 0 0 10px black;
+}
+
+.contects .contect i {
+    font-size: 72px;
+}
+
+.sendmessage form {
+    background: #a8d741;
+}
+
+.sendmessage form button {
+    background: #a8d741;
+    transition: 0.3s;
+}
+
+.sendmessage form button:hover {
+    background: white;
+    transform: rotate(5deg) scale(1.1);
+    box-shadow: 0 0 10px black;
+}
