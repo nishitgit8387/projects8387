@@ -1,0 +1,26 @@
+@media (max-width:500px) {
+    .main {
+        display: block;
+    }
+
+    .main .gallery {
+        display: block;
+    }
+
+    .main .gallery .r1 {
+        display: block;
+    }
+
+    .main .gallery .r2 {
+        display: block;
+    }
+
+    .main .gallery .r3 {
+        display: block;
+    }
+
+    .main .gallery .r4 {
+        display: block;
+    }
+
+}

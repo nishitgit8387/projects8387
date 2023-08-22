@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+   
+
+        div 
+        {
+            overflow: hidden;
+        }
+    </style>
+  </head>
+  <body>
+   
+    <div>
+        <img src="i1.jpg" alt="" height="300px" width="100%" />
+        <img src="i2.jpg" alt="" height="300px" width="100%" />
+        <img src="i3.jpeg" alt="" height="300px" width="100%" />
+        <img src="i4.jpg" alt="" height="300px" width="100%" />
+        <img src="i5.jpg" alt="" height="300px" width="100%" />
+        <img src="i3.jpeg" alt="" height="300px" width="100%" />
+        <img src="i4.jpg" alt="" height="300px" width="100%" />
+    </div>
+    <div class="buttons">
+        <button onclick="  slider()" style="margin-left: 50%;margin-top: 25px;">next</button>
+    </div>
+
+    <script>
+
+index = 0;
+      function slider() {
+      
+        images = document.getElementsByTagName("img");
+
+        for (k = 0; k < images.length; k++) {
+          images[k].style.display = "none";
+        }
+
+        images[index].style.display = "block";
+        index++;
+
+        if(index>=images.length)
+        {
+            index=0;
+        }
+    
+      }
+      slider()
+
+    
+    </script>
+  </body>
+</html>

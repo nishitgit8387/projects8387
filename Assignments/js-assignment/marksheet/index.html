@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Information Technology</h1>
+
+    <div id="marks-entry">
+        <h2>Enter Marks:</h2>
+        <input type="number" id="subject1" placeholder="C language"><br>
+        <input type="number" id="subject2" placeholder="C++ language"><br>
+        <input type="number" id="subject3" placeholder="Database"><br>
+        <input type="number" id="subject4" placeholder="HTML"><br>
+        <input type="number" id="subject5" placeholder="CSS"><br>
+        <input type="number" id="subject6" placeholder="PHP"><br>
+        <input type="number" id="subject7" placeholder="CORE"><br>
+        <button onclick="calculateMarks()">Calculate</button>
+    </div>
+
+    <div id="marksheet">
+        <h2>Marksheet</h2>
+        <p>Total Marks: <span id="totalMarks"></span> / 700</p>
+        <p>Percentage: <span id="percentage"></span>%</p>
+
+    </div>
+
+    <script>
+        function calculateMarks() {
+            var subject1 = parseFloat(document.getElementById("subject1").value);
+            var subject2 = parseFloat(document.getElementById("subject2").value);
+            var subject3 = parseFloat(document.getElementById("subject3").value);
+            var subject4 = parseFloat(document.getElementById("subject4").value);
+            var subject5 = parseFloat(document.getElementById("subject5").value);
+            var subject6 = parseFloat(document.getElementById("subject6").value);
+            var subject7 = parseFloat(document.getElementById("subject7").value);
+
+            var totalMarks = subject1 + subject2 + subject3 + subject4 + subject5 + subject6 + subject7;
+
+            var percentage = (totalMarks / 700) * 100;
+
+            document.getElementById("totalMarks").textContent = totalMarks;
+            document.getElementById("percentage").textContent = percentage.toFixed(2);
+        }
+    </script>
+</body>
+</html>

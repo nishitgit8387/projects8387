@@ -1,0 +1,77 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 80fr 20fr;
+}
+
+.main .gallery {
+  display: grid;
+  grid-template-rows: 200px 200px 200px 200px;
+}
+
+.main .gallery .r1 {
+  display: grid;
+  grid-template-columns: 60fr 40fr;
+}
+
+.main .gallery .r2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main .gallery .r3 {
+  display: grid;
+  grid-template-columns: 50fr 50fr;
+}
+
+.main .gallery .r4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main .navbar {
+  background: gray;
+}
+
+.main .navbar h1 {
+  font-size: 20px;
+  color: lightgray;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 25px 40%;
+  transition: 0.8s;
+}
+
+.main .navbar h1:hover {
+  color: lightcoral;
+}
+
+.main .navbar ul {
+  margin: 25px 40%;
+}
+
+.main .navbar ul li {
+  list-style-type: none;
+}
+
+.main .navbar ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: lightgray;
+  font-family: 'Courier New', Courier, monospace;
+  transition: 0.8s;
+}
+
+.main .navbar ul li a:hover {
+  color: lightcoral;
+}
+
+.main .navbar .ul2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
