@@ -1,0 +1,1250 @@
+@media (min-width: 1199px){
+    .container{
+        max-width: 1170px;
+   }
+}
+
+
+@media (max-width:1199px){
+    /* castom */
+    h5 {
+        font-size: 29.9px;
+        line-height: 40px;
+    }
+    /* section */
+    section {
+        padding: 90px 0;
+    }
+
+    /* swiper-slider */
+    .business-hero-slider .background-business h2 {
+        font-size: 50px;
+    }
+
+    /* about-company */
+    .about-company {
+        padding: 120px 0px;
+     }
+    .about-company .discover-button {
+        margin-top: 93px;
+    }
+
+   
+
+    /* footer-top */
+    .footer-top .Resources p {
+        width: 90%;
+    }
+    /* footer-bottom */
+    .footer-bottom {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    /* our-company-page */
+    /* parallaxi */
+    .parallaxi {
+        background-attachment: inherit;
+        background-position:center;
+    }
+    .parallaxi-height {
+        height: 400px;
+    }
+
+    /* about-startup */
+    .about-startup .about-inner span {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .about-startup .about-inner {
+        padding: 0 40px;
+    }
+    .about-startup .about-agency {
+        padding: 26px;
+    }
+
+    /* company-contribute */
+    .company-contribute h5 {
+        font-size: 29.9px;
+        margin-bottom: 0;
+    }
+    .company-contribute .story-video {
+        padding: 32.5px 41.5px;
+    }
+
+    /* marketing-offer */
+    .marketing-offer .marketing-service {
+        margin-bottom: 26px;
+    }
+    .marketing-offer .marketing-title {
+        margin-bottom: 65px;
+    }
+    .marketing-offer .marketing-box:nth-child(3), .marketing-offer .marketing-box:nth-child(4) {
+        margin-bottom: 0;
+    }
+
+    /* team-work */
+    .team-work h5 {
+        margin-bottom: 15px;
+    }
+    .team-work ul {
+        margin: 26px 0 39px;
+    }
+
+    /* website-demo */
+    .website-demo .web-installation {
+        padding: 32.5px;
+    }
+
+    /* creatives-designer */
+    .creatives-designer {
+        height: 775.625px;
+    }
+    .creatives-designer .creatives-blog {
+        padding: 65px 52px;
+    }
+
+    /* awards-counter */
+    .awards-counter .awards-parfomance {
+        margin-top: -103.594px;
+        padding: 52px;
+    }
+    .awards-counter h4 {
+        width: 100%;
+        margin-bottom: 15px;
+        font-size: 37.05px;
+        line-height: 2.9rem;
+    }
+    .awards-counter .working-time {
+        text-align: center;
+    }
+
+    /* team-member */
+    .team-member h5 {
+        margin-bottom: 15px;
+    }
+    .team-member .team-finance {
+        margin-bottom: 58.5px;
+    }
+    .team-member h6 {
+        font-size: 23.4px;
+    }
+}
+@media (max-width:991px){
+    /* castom */
+    h5 {
+        font-size: 27.6px;
+        line-height: 36px;
+    }
+    /* section */
+    section {
+        padding: 75px 0;
+    }
+    /* header */
+    /* navbar */
+     nav {
+        height: 77px;
+        padding: 0px 30px !important;
+    }
+    .navbar .navbar-nav .nav-link {
+        padding: 9px 15px;
+        margin: 0;
+        font-size: 15px;
+        height: 48px;
+    }
+    .navbar-nav {
+        padding: 15px 15px 25px;
+        left: 0;
+        top: 70px;
+        font-size: 15px;
+        background-color: white;
+    }
+    .navbar-collapse {
+        position: absolute;
+        top: 76px;
+        left: 0;
+    }
+    .navbar-toggler {
+        margin: 30px 0 28px 10px;
+        transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -webkit-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+    }
+    .navbar-light .navbar-toggler  {
+        border: none;
+        color: white;
+    }
+    /* navbae header end */
+
+    /* swiper-slider */
+    .business-hero-slider .background-business h2 {
+        font-size: 47px;
+    }
+    /* swiper-slider */
+
+    /* about-company */
+    .about-company {
+        padding: 95px 0px;
+     }
+    .about-company .responshive-about {
+        margin-bottom: 72px;
+        padding: 0px 15px;
+        text-align: center;
+    }
+    .about-company h5 {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .about-company .discover-button {
+        margin-top: 0px;
+    }
+    .about-company .technical {
+        text-align: center;
+    }
+
+   /* Why choose */
+    .why-choose .outside-right {
+        margin-right: 0vw;
+    }
+    .why-choose .alternation {
+        margin-bottom: 48px;
+    }
+
+    /* our-expertise */
+    .our-expertise .dummy-content {
+        text-align: center;
+        flex-direction: column;
+        display: flex;
+        padding: 0px 15px;
+        margin-bottom: 72px;
+    }
+    .our-expertise h5 {
+        margin-bottom: 30px;
+    }
+    .our-expertise .right-customer .discover-button {
+        margin-top: 0px;
+    }
+    .our-expertise .panel {
+        text-align: center;
+    }
+    .our-expertise .panel .chart {
+        justify-content: center;
+    }
+    .our-expertise .panel .caunter-pargraft p {
+        width: 75%;
+    }
+
+    /* modernized-redesign */
+    .modernized-redesign .tab-content .Business-planning {
+        margin-bottom: 30px;
+    }
+    .modernized-redesign .main-consept {
+        margin-bottom: 20px;
+    }
+    .modernized-redesign .nav {
+        margin-bottom: 60px;
+    }
+
+    /* our-premium */
+    .our-premium .box-technology {
+        margin-bottom: 60px;
+    }
+
+    /* our-premium */
+    .our-premium .Automated .feature-box {
+        padding: 48px;
+    }
+    .our-premium .Automated:nth-child(3) {
+        margin-bottom: 30px;
+    }
+
+    /* youtube-video */
+    .youtube-video .first-play h4 {
+        font-size: 34.2px;
+        line-height: 42px;
+    }
+
+    /* counter */
+    .working-hours h2 {
+        font-size: 34.2px;
+    }
+    .working-hours {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    /* what-people */
+    .what-people .saying-now {
+        margin-bottom: 60px !important;
+    }
+    .what-people .mega-dolore {
+        margin-bottom: 30px;
+    }
+    .what-people .mega-dolore:last-child {
+        margin-bottom: 0;
+    }
+    .what-people .testimonials .incididunt-labore {
+        padding: 24px;
+    }
+
+    /* company-inwester  */
+    .company-inwester .forecast {
+        margin-bottom: 40px;
+    }
+    .company-inwester .forecast:nth-child(3) {
+        margin-bottom: 0px;
+    }
+    .company-inwester .forecast:nth-child(4) {
+        margin-bottom: 0px;
+    }
+
+    /* company-inwester */
+    .company-inwester {
+        padding:75px 0px;
+    }
+
+    /* latest-insights */
+    .latest-insights .get-news {
+        margin-bottom: 36px;
+    }
+    /* footer */
+    .footer-dark .Resources {
+        margin-bottom: 40px;
+    }
+    /* about-us */
+    /* introduction */
+    .introduction .brian {
+        height: 600px !important;
+    }
+    .introduction .world-university {
+        width: 100%;
+    }
+    .introduction .wilson {
+        font-size: 46.8px;
+    }
+    .introduction .victoria {
+        padding-bottom: 8rem;
+    }
+
+     /* multipurpose */
+     .multipurpose .overlap {
+        margin-top: -167.5px;
+    }
+    .excellent-content {
+        padding: 48px;
+    }
+    .technique {
+        padding: 0px;
+    }
+    .features-box i {
+        margin-bottom: 15px;
+    }
+
+    /* Accomplished */
+    .Accomplished h5 {
+        font-size: 27.6px;
+    }
+    .Accomplished p {
+        margin-bottom: 20px;
+    }
+    .simple-process {
+        margin-bottom: 60px;
+    }
+    .progress {
+        margin-bottom: 48px;
+    }
+
+    /* working-idea */
+    .good-business {
+        padding: 0 15px;
+        margin-bottom: 72px;
+    }
+
+    /* working-idea */
+    .working-idea ul li {
+        padding: 0 8px;
+    }
+    .working-idea .nav-item .nav-link {
+        padding: 6px 12px;
+    }
+    .working-idea ul {
+        margin-bottom: 72px;
+    }
+    .digital-isue h6 {
+        font-size: 21.6px;
+        line-height: 1.9rem;
+        width: 100%;
+    }
+    .digital-isue {
+        padding: 0 15px;
+    }
+    .digital-isue span i {
+        padding: 12px;
+    }
+
+    /* portfolio-block */
+    .portfolio-block ul> li {
+        padding: 10px;
+    }
+    .portfolio-block h6 {
+        font-size: 21.6px;
+    }
+    .portfolio-block .nav .nav-item {
+        padding: 0 15px;
+    }
+    .portfolio-block .portfolio-ideas {
+        line-height: 26px;
+    }
+
+    /* about-story */
+    .about-story .about-counter-first {
+        padding: 36px;
+        margin-bottom: 36px;
+    }
+    .about-story .about-resorsh {
+        padding: 0 15px;
+        margin-bottom: 66px;
+    }
+    .about-story .about-counter-first h4 {
+        font-size: 34.2px;
+        letter-spacing: -1px;
+    }
+    .about-story .about-title {
+        margin-bottom: 36px;
+        font-size: 27.6px;
+    }
+    .about-story .about-experience {
+        margin-bottom: 30px;
+        padding: 0 15px;
+    }
+    .about-story .about-experience:last-child {
+        margin-bottom: 0;
+    }
+    .about-story .about-inner {
+        margin-top: 5.2rem;
+    }
+
+    /* conpany-logo */
+    .conpany-logo {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    /* business-marketing */
+    .business-marketing .business-item {
+        padding: 60px;
+    }
+    .business-marketing .business-item h6 {
+        font-size: 21.6px;
+        margin-bottom: 30px;
+        line-height: 1.9rem;
+        letter-spacing: -.5px;
+    }
+    .business-marketing .business-developer {
+        padding: 72px;
+    }
+    .business-marketing .business-developer .business-education {
+        margin-bottom: 24px;
+    }
+    .business-marketing .business-developer .business-education h6 {
+        font-size: 21.6px;
+    }
+    .business-marketing .business-developer .business-paregraf {
+        margin-bottom: 42px;
+    }
+    .business-marketing .business-developer p {
+        width: 70%;
+    }
+
+    /* business-project */
+    .business-project span {
+        font-size: 16px;
+    }
+    .business-project h5 {
+        font-size: 27.6px;
+        line-height: 2.3rem;
+    }
+    .business-project .business-crafto {
+        width: 66%;
+        margin-top: 1.9rem;
+    }
+
+    /* footer-dark */
+    .footer-dark {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .footer-dark .Resources:nth-child(3) {
+        margin-bottom: 0px;
+    }
+
+    /* footer-bottom */
+    .footer-bottom {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    /* our-company-page */
+    /* parallaxi */
+    .parallaxi h2  {
+        width: 65%;
+        font-size: 46.8px;
+        line-height: 3.2rem;
+        letter-spacing: -1.1px;
+    }
+    .parallaxi-height {
+        height: 400px;
+    }
+
+    /* about-startup */
+    .about-startup .about-image {
+        height: 700px;
+        margin-bottom: 30px;
+    }
+    .about-startup .about-inner {
+        padding: 51px;
+    }
+    .about-startup .about-agency {
+        padding: 30px;
+    }
+    .about-startup .about-inner span {
+        line-height: 26px;
+    }
+
+    /* company-contribute */
+    .company-contribute h5 {
+        font-size: 27.6px;
+    }
+
+    /* marketing-offer */
+    .marketing-offer .marketing-service {
+        margin-bottom: 24px;
+    }
+    .marketing-offer .marketing-title {
+        margin-bottom: 36px;
+    }
+    .marketing-offer .marketing-box:nth-child(3) {
+        margin-bottom: 30px;
+    }
+    .marketing-offer .marketing-box:nth-child(4) {
+        margin-bottom: 0;
+    }
+
+    /* team-work */
+    .team-work .mySwiper-4 {
+        margin-bottom: 50px;
+    }
+    .team-work p {
+        margin-bottom: 20px;
+    }
+    .team-work ul {
+        margin: 24px 0 36px;
+    }
+
+    /* website-demo */
+    .website-demo .web-installation {
+        padding: 48px;
+    }
+    .website-demo .web-sarver {
+        margin-bottom: 30px;
+    }
+
+    /* creatives-designer */
+    .creatives-designer {
+        height: 1084.93px;
+    }
+    .creatives-designer .creatives-books {
+        height: 400px;
+    }
+    .creatives-designer .creatives-blog {
+        padding: 60px;
+    }
+    /* awards-counter */
+    .awards-counter .awards-parfomance {
+        margin-top: -97.8985px;
+        padding: 48px;
+    }
+    .awards-counter h4 {
+        font-size: 34.2px;
+        line-height: 2.9rem;
+    }
+
+    /* team-member */
+    .team-member .team-finance {
+        margin-bottom: 54px;
+    }
+    .team-member .team-line {
+        margin-top: 36px;
+        margin-bottom: 72px;
+    }
+    .team-member h6 {
+        font-size: 21.6px;
+        width: 90%;
+        line-height: 1.8rem;
+        letter-spacing: -.4px;
+    }
+    .team-member figure .team-groth .team-hiring .team-social-icon a {
+        margin: 0 8px;
+    }
+
+}
+
+@media (max-width:767px){
+    /* castom */
+    h5 {
+        font-size: 25.3px;
+        line-height: 33px;
+    }
+    /* section */
+    section {
+        padding: 50px 0;
+    }
+
+    /* navbar hader */
+     nav {
+        padding: 0px 15px !important;
+    }
+    .navbar-nav  {
+        padding: 15px 0px 25px !important;
+    }
+    /* navbar hader end*/
+
+    /* swiper-slider */
+    .business-hero-slider .background-business h2 {
+        font-size: 43px;
+    }
+
+    /* about-company */
+    .about-company {
+        padding: 80px 0px;
+     }
+    .about-company .technical-name {
+        margin-bottom: 10px;
+    }
+    .about-company .Effective-strategy {
+        margin-bottom: 30px;
+    }
+
+    /* why-choose */
+    .why-choose .alternation {
+        margin-bottom: 44px;
+    }
+    .why-choose span {
+        margin-bottom: 15px;
+    }
+
+    /* our-expertise */
+    .our-expertise .digital-experience {
+        margin-bottom: 15px;
+    }
+    .our-expertise .panel .caunter-pargraft p {
+        width: 95%;
+    }
+    .our-expertise .dummy-content {
+        margin-bottom: 66px;
+    }
+
+    /* modernized-redesign */
+    .modernized-redesign .nav {
+        display: table;
+        width: 100%;
+    }
+    .modernized-redesign .nav .nav-item {
+        margin: 0 auto 20px;
+        padding: 0;
+        display: inherit;
+        width: auto;
+    }
+    .modernized-redesign .nav .nav-item .nav-link {
+        display: inline-block;
+        line-height: 16px;
+    }
+    .modernized-redesign .nav {
+        margin-bottom: 20px;
+    }
+    .modernized-redesign .dolor {
+        margin-bottom: 40px;
+    }
+    .modernized-redesign .main-consept {
+        margin-bottom: 15px;
+    }
+
+    /* our-premium */
+    .our-premium .box-technology {
+        margin-bottom: 55px;
+    }
+
+    /* youtube-video */
+    .youtube-video .first-play h4 {
+        font-size: 31.35px;
+    }
+
+    /* counter */
+    .working-hours h2 {
+        font-size: 31.35px;
+    }
+    .working-hours .Animated-Counter {
+        margin-bottom: 40px;
+    }
+
+    /* what-people */
+    .what-people .testimonials .incididunt-labore {
+        padding: 22px;
+    }
+    .what-people h5 {
+        width: 100%;
+    }
+
+    /* company-inwester */
+    .company-inwester {
+        padding:50px 0px;
+    }
+
+    /* latest-insights */
+    .latest-insights .get-news {
+        margin-bottom: 33px;
+    }
+
+    /* footer */
+    .footer-dark .digital-experiences {
+        margin-bottom: 15px;
+    }
+    .footer-dark {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    /* about-us */
+
+    /* introduction */
+    .introduction .brian {
+        height: 350px !important;
+    }
+    .introduction .wilson {
+        font-size: 42.9px;
+    }
+    .introduction .victoria {
+        padding-bottom: 0;
+    }
+    /* multipurpose */
+    .multipurpose .overlap {
+        margin-top: 0px;
+    }
+    .excellent-content {
+        padding: 44px;
+    }
+    .technique {
+        padding: 11px;
+    }
+    .features-box i {
+        margin-bottom: 10px;
+    }
+    .excellent-content {
+        box-shadow: none;
+        border-bottom: 1px solid #e4e4e4;
+    }
+    .Graphics-Design {
+        margin-bottom: 30px;
+    }
+    .Graphics-Design:last-child {
+        margin-bottom: 0;
+    }
+
+    /* Accomplished */
+    .Accomplished h5 {
+        font-size: 25.3px;
+    }
+    .Accomplished p {
+        margin-bottom: 15px;
+    }
+    .simple-process {
+        margin-bottom: 55px;
+    }
+    .progress {
+        margin-bottom: 66px;
+    }
+    /* working-idea */
+    .working-idea ul {
+        display: block;
+    }
+    .working-idea .nav-item .nav-link {
+        padding:5.5px 11px;
+    }
+    .working-idea ul li {
+        margin:0 0 15px;
+        padding: 0;
+    }
+    .working-idea ul li:last-child {
+        margin-bottom: 0px;
+    }
+    .working-idea ul {
+        margin-bottom: 33px;
+    }
+    .good-business {
+        margin-bottom: 44px;
+    }
+    .digital-isue h6 {
+        font-size: 19.8px;
+        line-height: 1.9rem;
+    }
+    .digital-isue {
+        margin-bottom: 30px;
+    }
+
+    /* portfolio-block */
+    .portfolio-block .container-fluid {
+        margin-bottom: 2.7rem;
+        margin-top: 2.7rem;
+    }
+    .portfolio-block .portfolio-ideas {
+        margin-bottom: 30px;
+    }
+    .portfolio-work h6{
+        margin-bottom: 55px;
+    }
+    .portfolio-block ul> li {
+        display: block;
+        width: 100%;
+    }
+    .portfolio-block .nav .nav-item {
+        padding: 0;
+    }
+
+    /* about-story */
+    .about-story .about-counter-first {
+        padding: 33px;
+        margin-bottom: 33px;
+    }
+    .about-story .about-resorsh {
+        padding: 0 15px;
+        margin-bottom: 60.5px;
+    }
+    .about-story .about-counter-first h4 {
+        font-size: 31.35px;
+        letter-spacing: -1px;
+    }
+    .about-story .about-title {
+        margin-bottom: 33px;
+        font-size: 25.3px;
+    }
+    .about-story .about-experience {
+        margin-bottom: 27.5px;
+        padding: 0 15px;
+    }
+    .about-story .about-experience:last-child {
+        margin-bottom: 0;
+    }
+
+    /* conpany-logo */
+    .conpany-logo {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    /* business-marketing */
+    .business-marketing .business-item {
+        padding: 55px;
+    }
+    .business-marketing .business-item h6 {
+        font-size: 19.8px;
+    }
+    .business-marketing .business-timeline {
+        height: 300px;
+    }
+    .business-marketing .business-developer {
+        padding: 66px;
+    }
+    .business-marketing .business-developer .business-education {
+        margin-bottom: 33px;
+    }
+    .business-marketing .business-developer .business-education h6 {
+        font-size: 19.8px;
+    }
+    .business-marketing .business-developer .business-paregraf {
+        margin-bottom: 38.5px;
+    }
+    .business-marketing .business-developer .business-paregraf:nth-child(3) {
+        margin-bottom: 38.5px;
+    }
+
+    /* business-project */
+    .business-project h5 {
+        font-size: 25.3px;
+        line-height: 2rem;
+    }
+    .business-project .business-crafto {
+        margin-top: 15px;
+        width: 99.5%;
+    }
+
+    /* footer-bottom */
+    .footer-bottom {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .footer-bottom .footer-bottom-logo {
+        margin-bottom: 20px;
+    }
+
+    /* our-company-page */
+    /* parallaxi */
+    .parallaxi h2  {
+        width: 80%;
+        font-size: 42.9px;
+        line-height: 2.9rem;
+        letter-spacing: -1px;
+    }
+
+    /* about-startup */
+    .about-startup .about-image {
+        height: 550px;
+    }
+    .about-startup .about-inner {
+        padding: 44px;
+        margin-bottom: 30px;
+    }
+    .about-startup .about-inner p {
+        margin-bottom: 15px;
+    }
+    .about-startup .about-agency {
+        padding: 44px;
+    }
+
+    /* company-contribute */
+    .company-contribute h5 {
+        font-size: 25.3px;
+        margin-bottom: 30px;
+    }
+    .company-contribute .Client-box-image {
+        margin-top: 4.7rem;
+    }
+
+    /* marketing-offer */
+    .marketing-offer .marketing-service {
+        margin-bottom: 22px;
+    }
+    .marketing-offer .marketing-title {
+        margin-bottom: 33px;
+    }
+
+    /* team-work */
+    .team-work p {
+        margin-bottom: 15px;
+    }
+    .team-work ul {
+        margin: 22px 0 33px;
+    }
+
+    /* website-demo */
+    .website-demo .web-installation {
+        padding: 44px;
+    }
+
+    /* creatives-designer */
+    .creatives-designer {
+        height: auto;
+    }
+    .creatives-designer .creatives-blog {
+        padding: 55px;
+    }
+    .creatives-designer .creatives-blog h5 {
+        letter-spacing: .5px;
+    }
+
+    /* awards-counter */
+    .awards-counter .awards-parfomance {
+        margin-top:0;
+        padding: 50px 0;
+        box-shadow: none;
+    }
+    .awards-counter h4 {
+        font-size: 31.35px;
+        line-height: 2.5rem;
+    }
+    .awards-counter .awards-winning {
+        border: none;
+        margin-bottom: 30px;
+    }
+    .awards-counter .awards-winning:last-child {
+        margin-bottom: 0;
+    }
+    .awards-counter {
+        border-bottom: 1px solid #e4e4e4;
+    }
+
+    /* team-member */
+    .team-member .team-finance {
+        margin-bottom: 33px;
+    }
+    .team-member .team-activety {
+        margin-bottom: 15px;
+    }
+    .team-member .team-line {
+        margin-top: 33px;
+        margin-bottom: 66px;
+    }
+    .team-member h6 {
+        font-size: 19.8px;
+        width: 100%;
+        line-height: 1.8rem;
+        letter-spacing: -.5px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:576px) {
+    /* castom */
+    h5 {
+        font-size: 25.3px;
+        line-height: 33px;
+    }
+    /* swiper-slider */
+    .business-hero-slider .background-business h2 {
+        margin-bottom: 35px;
+        line-height: 47px;
+    }
+    .business-hero-slider .background-business .danger-button {
+        margin-bottom: 15px;
+    }
+
+     /* about-company */
+    .about-company {
+        padding: 50px 0px;
+     }
+    .about-company .Effective-strategy {
+        margin-bottom: 40px;
+    }
+    .about-company .Customer-satisfaction {
+        margin-bottom: 40px !important;
+    }
+    .about-company .responshive-about {
+        margin-bottom: 66px;
+    }
+
+    /* why-choose */
+    .why-choose .outside-right .different-box .interactive-banners .fancy-text {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    /* our-expertise */
+    .our-expertise .panel:first-child {
+        margin-bottom: 45px;
+    }
+    .our-expertise .panel .caunter-pargraft p {
+        width: 75%;
+    }
+    .percentage {
+        margin-bottom: 20px;
+    }
+
+    /* modernized-redesign */
+    .modernized-redesign .tab-content .italic-text {
+        text-align: center !important;
+        justify-content: center;
+    }
+    .modernized-redesign .tab-content .Business-planning {
+        text-align: center;
+    }
+    .modernized-redesign .elit {
+        text-align: center;
+    }
+
+    /* youtube-video */
+    .youtube-video .first-play h4 {
+       margin-bottom: 25px;
+    }
+
+    /* what-people */
+    .what-people .saying-now  {
+        margin-bottom: 55px !important;
+    }
+
+    /* company-inwester */
+    .company-inwester .forecast:nth-child(3) {
+        margin-bottom: 40px;
+    }
+
+    /* latest-insights */
+    .latest-insights .title {
+        margin: 20px 0 10px;
+    }
+
+    /* latest-insights */
+    .latest-insights .get-news {
+        margin-bottom: 11px;
+    }
+
+    /* footer */
+    .footer-dark .Resources {
+        margin-bottom: 25px;
+    }
+    .footer-dark .Resources:last-child {
+        margin-bottom: 25px;
+    }
+    .footer-dark .Company {
+        margin-bottom: 10px;
+    }
+
+    /* introduction */
+    .introduction .world-university {
+        width: 80%;
+    }
+    .introduction .line-icon {
+        width: 65%;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* Accomplished */
+    .Accomplished h5 {
+        line-height: 33px;
+    }
+    .Accomplished p {
+        margin-bottom: 15px;
+    }
+    .simple-process {
+        margin-bottom: 55px;
+    }
+    .progress {
+        margin-bottom: 66px;
+    }
+
+    /* working-idea  */
+    .digital-isue h6 {
+        line-height: 1.7rem;
+    }
+
+    /* portfolio-block */
+    .portfolio-work h6 {
+        font-size: 19.8px;
+    }
+    .portfolio-block .nav .nav-item {
+        margin-bottom: 10px;
+    }
+
+    /* about-story */
+    .about-story .about-counter-first h4 {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .about-story .wining-awards {
+        display: block;
+        border: none;
+        text-align: center;
+        padding: 0;
+    }
+    .about-story .about-developer {
+        margin-bottom: 5px;
+    }
+    .about-story .about-inner {
+        margin-top: 4rem;
+    }
+    .about-story .about-line {
+        margin-top: 27.5px;
+    }
+
+    /* conpany-logo */
+    .conpany-logo .mySwiper-3 .swiper-slide {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /* business-marketing */
+    .business-marketing .business-developer p {
+        width: 100%;
+    }
+
+    /* business-project */
+    .business-project .business-crafto input {
+        padding-right: 20px;
+    }
+    .business-project .business-crafto .btn {
+        position: static;
+        top: 0;
+        border-radius: 100px;
+        width: 100%;
+        transform: translateY(0);
+        -moz-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        margin-top: 15px;
+    }
+
+    /* footer-dark */
+    .footer-dark .Resources:nth-child(3) {
+        margin-bottom: 25px;
+    }
+
+    /* footer-bottom */
+    .footer-bottom {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    /* our-company-page */
+    /* parallaxi */
+    .parallaxi h2 {
+        width: 100%;
+    }
+    .parallaxi-height {
+        height: 280px;
+    }
+    .parallaxi .down-arrow a i {
+        padding: 10px;
+        width: 38px;
+    }
+
+    /* about-startup */
+    .about-startup .about-image {
+        height: 450px;
+    }
+    .about-startup .about-inner p {
+        letter-spacing: .1px;
+    }
+
+    /* company-contribute */
+    .company-contribute .company-title {
+        margin-bottom: 30px;
+    }
+    .company-contribute h5 {
+        margin-bottom: 15px;
+    }
+    .company-contribute .Client-box-logo {
+        margin-bottom: 15px;
+    }
+
+    /* marketing-offer */
+    .marketing-offer .marketing-box {
+        margin-bottom: 15px;
+    }
+    .marketing-offer .marketing-box:nth-child(3) {
+        margin-bottom: 15px;
+    }
+
+    /* website-demo */
+    .website-demo .web-sarver {
+        margin-bottom: 15px;
+    }
+    .website-demo .web-installation p {
+        letter-spacing: -.1px;
+    }
+
+    /* creatives-designer */
+    .creatives-designer {
+        padding: 0;
+    }
+    .creatives-designer .creatives-blog h5 {
+        margin-bottom: 20px;
+    }
+
+    /* awards-counter */
+    .awards-counter h4 {
+        line-height: 2.3rem;
+    }
+}
