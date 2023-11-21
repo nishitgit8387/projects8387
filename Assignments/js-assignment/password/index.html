@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* style start */
+
+    .password {
+      position: relative;
+      width: 300px;
+    }
+
+    #pin {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    #button {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+    }
+
+  </style>
+
+  <!-- style end -->
+
+  <title>Password Field with Show/Hide</title>
+
+</head>
+<body>
+    
+<!-- password start -->
+<div class="password">
+  <input type="pin" id="pin" placeholder="Enter password">
+  <span id="button" onclick="showhide()">Show</span>
+</div>
+
+<!-- password end -->
+
+<!-- script start -->
+
+<script>
+  function showhide() {
+    var passwordField = document.getElementById('pin');
+    var button = document.getElementById('button');
+
+    if (passwordField.type === 'password') {
+      passwordField.type = 'text';
+      button.textContent = 'Hide';
+    } else {
+      passwordField.type = 'password';
+      button.textContent = 'Show';
+    }
+  }
+</script>
+
+<!-- script end -->
+
+</body>
+</html>
+
