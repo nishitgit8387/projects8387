@@ -1,0 +1,24 @@
+* {margin: 0%;padding: 0%;box-sizing: border-box;}
+
+/* layout start */
+
+/* layout responsive using flex-wrap */
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background: lightgray;
+    padding: 40px;
+}
+.main .block{
+    height: 300px;
+    width: 400px;
+    border: 2px solid green;
+    margin-top: 25px;
+}
+.main .block img{
+    object-fit: cover;
+}
+
+/* layout end */
