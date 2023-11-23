@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #808080;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    background-color:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 3rem;
+    padding: 0 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    z-index: 10;
+  
+}
+
+.checkBtn {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.checkBtn {
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 500;
+    float: right;
+    color: #ed1e79;
+    line-height: 80px;
+}
+
+.right ul {
+    display: flex;
+    list-style: none;
+}
+
+.right ul li a {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight:500;
+    color: #808080;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.right ul li a:hover {
+    background-color: #33FFC2;
+    border-radius: 7px;
+    color:#fff;
+}
+.contect{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.contect a{
+    text-decoration: none;
+}
+.contect a i{
+    color: #33FFC2;
+}
+
+.services{
+    text-align: center;
+}
+
+.services .service{
+ 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services h2{
+    font-size: 3rem;
+    padding-top: 3%;
+}
+.services p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 3% 15%;
+}
+
+.services .service .service1{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/services-1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 70vh;
+    padding-top: 10%;
+    
+}
+
+.services .service .service2{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/services-2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 70vh;
+    padding-top: 10%;
+}
+
+.services .service .service3{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/services-3.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 70vh;
+    padding-top: 10%;
+}
+
+.services .service .service4{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/services-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 70vh;
+    padding-top: 10%;
+}
+
+.services .service .service5{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/services-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 70vh;
+    padding-top: 10%;
+}
+
+.services .service .service6{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/services-6.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 70vh;
+    padding-top: 10%;
+}
+
+.services .service h2{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.services .service p{
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 20px 10%;
+}
+
+.services .service button{
+    height: 60px;
+    width: 25%;
+    margin-top: 3%;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    background-color: #33FFC2;
+    font-size: 20px;
+}
+
+.prices{
+    background-color: lightgray;
+    padding: 4%;
+    text-align: center;
+}
+
+.prices h2{
+    font-size: 3rem;
+}
+
+.prices .price{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+.prices .price .drop{
+    height: 60vh;
+    width: 30%;
+    background-color: #fff;
+    border: 3px solid #33FFC2;
+}
+.prices .price .collection{
+    height: 60vh;
+    width: 30%;
+    background-color: #fff;
+    border: 3px solid #33FFC2;
+}
+.prices .price .compensation{
+    height: 60vh;
+    width: 30%;
+    background-color: #fff;
+    border: 3px solid #33FFC2;
+}
+
+.prices .price h2{
+    font-size: 1.8rem;
+    padding: 30px 0;
+}
+.prices .price .amount{
+    background-color: #808080;
+    padding: 25px 0;
+}
+.prices .price .amount .from{
+    font-size: 1.2rem;
+    color: #fff;
+    display: block;
+}
+.prices .price .amount span{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.prices .price p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 10px 0;
+}
+.prices .price button{
+    height: 60px;
+    width: 70%;
+    margin-top: 3%;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    background-color: #33FFC2;
+    font-size: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0;
+    flex-wrap: wrap;
+}
+
+.footer .social a i{
+    padding: 10vh 25px;
+    font-size: 28px;
+}
+
+.footer .social a i:hover{
+    color: #33FFC2;
+    transition: 0.5s;
+}
+
+

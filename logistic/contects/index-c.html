@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contects</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <img src="images/IMG-20231107-WA0001.jpg" alt="" height="100px" width="300px">
+        </div>
+        <div class="right">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkBtn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <ul class="list">
+                <li class="home"><a href="index-h.html">Home</a></li>
+                <li><a href="About/index-a.html">About</a></li>
+                <li><a href="services/index-s.html">Services</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </div>
+        <div class="contect">
+            <a href=""><i class="fa fa-phone"></i> +1 12345 67890</a>
+        </div>
+    </nav>
+
+    <div class="contectform">
+        <h2>Contact Form</h2>
+
+       <form action="">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="E-mail" required>
+        <input type="number" placeholder="Telephone" required>
+
+        <br>
+
+
+        <textarea name="comments" placeholder="Comments" id="" cols="50" rows="8"></textarea>
+
+        <br>
+
+        <input type="submit" class="submit" placeholder="Send" value="SEND">
+       </form>
+
+    </div>
+
+    <div class="depot">
+        <h2>Nearest Depot</h2>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235013.74843128555!2d72.41493016192405!3d23.020474100230842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1699371546260!5m2!1sen!2sin"
+                width="100%" height="500" style="border:0;" allowfullscreen=""
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="logo"><img src="images/IMG-20231107-WA0001.jpg" alt="" height="150px" width="60%"></div>
+        <div class="social">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fab fa-google-plus" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</body>
+
+</html>

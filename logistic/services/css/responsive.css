@@ -1,0 +1,84 @@
+@media screen and (max-width:805px) {
+    
+    .logo img{
+        height: 80px;
+        width: 250px;
+    }
+    .list {
+        width: 100%;
+        height: 100vh;
+        background-color:#fff;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 8rem;
+        left: 100%;
+        transition: all 1s;
+        z-index: 10;
+    }
+
+    #check {
+        display: none;
+    }
+
+    .checkBtn {
+        display: block;
+    }
+
+    #check:checked~ul {
+        left: 0%;
+    }
+    .slider-container{
+        height: 40vh;
+    }
+    .prev-btn, .next-btn{
+        position: absolute;
+        top: 25%;
+    }
+
+    .services .service .service1{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .services .service .service2{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .services .service .service3{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .services .service .service4{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .services .service .service5{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .services .service .service6{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .prices .price .drop{
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    .prices .price .collection{
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    .prices .price .compensation{
+        width: 100%;
+        margin-top: 2%;
+    }
+}

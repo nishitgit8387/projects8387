@@ -1,0 +1,71 @@
+@media screen and (max-width:805px) {
+    
+    .logo img{
+        height: 80px;
+        width: 250px;
+    }
+    .list {
+        width: 100%;
+        height: 100vh;
+        background-color:#fff;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 8rem;
+        left: 100%;
+        transition: all 1s;
+        z-index: 10;
+    }
+
+    #check {
+        display: none;
+    }
+
+    .checkBtn {
+        display: block;
+    }
+
+    #check:checked~ul {
+        left: 0%;
+    }
+    .slider-container{
+        height: 40vh;
+    }
+    .prev-btn, .next-btn{
+        position: absolute;
+        top: 25%;
+    }
+
+    .services{
+        padding-top: 0%;
+    }
+
+    .services .service .service1{
+        padding-top: 0%;
+        width: 50%;
+        padding: 10px 0;
+    }
+
+    .search form .in{
+        width: 80%;
+    }
+
+    .search form .in1{
+        width: 20%;
+        position: absolute;
+        left: 69.8%;
+    }
+
+    .aboutus .privet{
+        width: 100%;
+    }
+
+    .aboutus .business{
+        width: 100%;
+    }
+
+    .aboutus button{
+        width: 40%;
+    }
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <img src="images/IMG-20231107-WA0001.jpg" alt="" height="100px" width="300px">
+        </div>
+        <div class="right">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkBtn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <ul class="list">
+                <li class="home"><a href="index-h.html">Home</a></li>
+                <li><a href="About/index-a.html">About</a></li>
+                <li><a href="services/index-s.html">Services</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="contects/index-c.html">Contacts</a></li>
+            </ul>
+        </div>
+        <div class="contect">
+            <a href=""><i class="fa fa-phone"></i> +1 12345 67890</a>
+        </div>
+    </nav>
+    <div class="slider-container">
+        <div class="slider">
+            <img src="images/5d78f0da0d8c2.jpeg" alt="Image 1">
+            <img src="images/blog1.jpg.webp" alt="Image 2">
+            <img src="images/blog2.jpg.webp" alt="Image 3">
+            <img src="images/blog3.jpg.webp" alt="Image 4">
+        </div>
+        <button class="prev-btn" onclick="prevSlide()">&#8249;</button>
+        <button class="next-btn" onclick="nextSlide()">&#8250;</button>
+    </div>
+
+    <div class="container">
+        <div class="services">
+            <h2>Fast and reliable delivery services that meet your timeline.</h2>
+            <div class="service">
+                <div class="service1">
+                    <a href="">
+                        <span><i class="fa-solid fa-chart-line"></i></span>
+                        <h3>Delivery Price</h3>
+                    </a>
+                </div>
+                <div class="service1">
+                    <a href="">
+                        <span><i class="fa fa-clock"></i></span>
+                        <h3>Delivery Term</h3>
+                    </a>
+                </div>
+                <div class="service1">
+                    <a href="">
+                        <span><i class="fa-solid fa-warehouse"></i></span>
+                        <h3>Nearest Depot</h3>
+                    </a>
+                </div>
+                <div class="service1">
+                    <a href="">
+                        <span><i class="fas fa-shipping-fast"></i></span>
+                        <h3>Call for a Courier</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="search">
+        <h2>Track search</h2>
+        <form action="">
+            <input type="text" class="in" placeholder="Enter the invoice number" required>
+            <input type="submit" class="in1" name="search" value="search">
+        </form>
+    </div>
+
+    <div class="aboutus">
+        <div class="privet">
+            <h2>For Private Customers</h2>
+            <p>It’s totally pure and simple. All you have to do is to drop into the nearest DeliveryCo. depot or book a
+                courier to your home or office.</p>
+            <button>Read More</button>
+        </div>
+
+        <div class="business">
+            <h2>For Business Customers</h2>
+            <p>Manage your time and expenses by selecting the option that suits you best. The service is available for
+                shipments from all over the world to US and vice versa.</p>
+            <button>Read More</button>
+        </div>
+    </div>
+
+    <div class="depot">
+        <h2>Nearest Depot</h2>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235013.74843128555!2d72.41493016192405!3d23.020474100230842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1699371546260!5m2!1sen!2sin"
+                width="100%" height="500" style="border:0;" allowfullscreen=""
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="logo"><img src="images/IMG-20231107-WA0001.jpg" alt="" height="150px" width="60%"></div>
+        <div class="social">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fab fa-google-plus" aria-hidden="true"></i></a>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+@media screen and (max-width:805px) {
+    .logo img{
+        height: 80px;
+        width: 250px;
+    }
+    .list {
+        width: 100%;
+        height: 100vh;
+        background-color:#fff;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 8rem;
+        left: 100%;
+        transition: all 1s;
+        z-index: 10;
+    }
+
+    #check {
+        display: none;
+    }
+
+    .checkBtn {
+        display: block;
+    }
+
+    #check:checked~ul {
+        left: 0%;
+    }
+
+    .profile img{
+        height: 300px;
+        width: 100%;
+    }
+    .profile p{
+        padding: 0% 5%;
+        padding: 20px;
+        font-size: 1rem;
+    }
+
+    .aboutus{
+        height: 80vh;
+    }
+
+    .aboutus .vision{
+        width: 100%;
+        padding: 3% 0;
+    }
+    .aboutus .awards{
+        width: 100%;
+        padding: 3% 0;
+    }
+
+    .services{
+        padding-top: 0%;
+    }
+
+    .services .service .service1{
+        padding-top: 0%;
+        width: 50%;
+        padding: 10px 0;
+    }
+
+    .ourteam .team .member{
+        width: 100%;
+        margin-top: 25px;
+    }
+}

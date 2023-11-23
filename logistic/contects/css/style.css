@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #808080;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    background-color:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 3rem;
+    padding: 0 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    z-index: 10;
+  
+}
+
+.checkBtn {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.checkBtn {
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 500;
+    float: right;
+    color: #ed1e79;
+    line-height: 80px;
+}
+
+.right ul {
+    display: flex;
+    list-style: none;
+}
+
+.right ul li a {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight:500;
+    color: #808080;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.right ul li a:hover {
+    background-color: #33FFC2;
+    border-radius: 7px;
+    color:#fff;
+}
+.contect{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.contect a{
+    text-decoration: none;
+}
+.contect a i{
+    color: #33FFC2;
+}
+
+.contectform{
+    text-align: center;
+}
+
+.contectform h2{
+    font-size: 3rem;
+    margin: 2% 0;
+}
+
+.contectform form input{
+    width: 28%;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid #808080;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.contectform form textarea{
+    width: 84%;
+    margin: 25px 0;
+    border-radius: 25px;
+    border: 2px solid #808080;
+    outline: none;
+    font-size: 18px;
+    padding: 10px 10px;
+}
+.contectform form .submit{
+    width: 15%;
+    background-color: #33FFC2;
+    font-size: 1.5rem;
+    color: #fff;
+    border: none;
+}
+
+.depot{
+    text-align: center;
+}
+.depot h2{
+    height: 20vh;
+    line-height: 20vh;
+    font-size: 3rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0;
+    flex-wrap: wrap;
+}
+
+.footer .social a i{
+    padding: 10vh 25px;
+    font-size: 28px;
+}
+
+.footer .social a i:hover{
+    color: #33FFC2;
+    transition: 0.5s;
+}

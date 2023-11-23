@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #808080;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    background-color:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 3rem;
+    padding: 0 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    z-index: 10;
+  
+}
+
+.checkBtn {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.checkBtn {
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 500;
+    float: right;
+    color: #ed1e79;
+    line-height: 80px;
+}
+
+.right ul {
+    display: flex;
+    list-style: none;
+}
+
+.right ul li a {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight:500;
+    color: #808080;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.right ul li a:hover {
+    background-color: #33FFC2;
+    border-radius: 7px;
+    color:#fff;
+}
+.contect{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.contect a{
+    text-decoration: none;
+}
+.contect a i{
+    color: #33FFC2;
+}
+.slider-container {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: 0.5s;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+
+.prev-btn:hover, .next-btn:hover {
+    background:#33FFC2;
+}
+
+.prev-btn {
+    left: 0;
+}
+
+.next-btn {
+    right: 0;
+}
+
+.services{
+    text-align: center;
+    padding-top: 5%;
+}
+.services h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.services .service{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.services .service .service1 a{
+    text-decoration: none;
+}
+.services .service .service1 i{
+    font-size: 7rem;
+}
+.services .service i:hover{
+    color: #33FFC2;
+    transition: 0.5s;
+}
+.services .service h3{
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.services .service h3:hover{
+    color: #33FFC2;
+    transition: 0.5s;
+}
+
+.search{
+    text-align: center;
+    height: 30vh;
+    background-color: #33FFC2;
+    margin-top: 25px;
+    padding-top: 5%;
+}
+
+.search h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.search form{
+    position: relative;
+    margin-top: 2%;
+}
+
+.search form .in{
+    width: 50%;
+   height: 60px;
+   border-radius: 50px;
+   border: none;
+   padding-left: 10px;
+   font-size: 20px;
+   outline: none;
+}
+
+.search form .in1{
+    width: 10%;
+    height:56px;
+    margin-top: 2px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    color: #33FFC2;
+    background-color: #808080;
+    position: absolute;
+    left: 64.8%;
+}
+
+.search form .in1:hover{
+    color: #808080;
+    background-color: #33FFC2;
+}
+
+.aboutus{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.aboutus .privet{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/page1_pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 50%;
+    text-align: center;
+    padding-top: 20vh;
+    opacity: 0.7;
+}
+
+.aboutus h2{
+    font-size: 36px;
+    color:#fff;
+}
+.aboutus p{
+    font-size: 20px;
+    color:#fff;
+    padding: 2% 10%;
+}
+
+.aboutus .business{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/truk.webp);
+    height: 60vh;
+    width: 50%;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+.aboutus button{
+    height: 60px;
+    width: 25%;
+    margin-top: 3%;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    background-color: #33FFC2;
+    font-size: 20px;
+}
+.aboutus button:hover{
+    background-color: #fff;
+    color: #33FFC2;
+    transition: 0.5s;
+}
+
+.depot{
+    text-align: center;
+}
+.depot h2{
+    height: 20vh;
+    line-height: 20vh;
+    font-size: 36px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0;
+    flex-wrap: wrap;
+}
+
+.footer .social a i{
+    padding: 10vh 25px;
+    font-size: 28px;
+}
+
+.footer .social a i:hover{
+    color: #33FFC2;
+    transition: 0.5s;
+}

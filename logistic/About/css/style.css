@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #808080;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    background-color:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 3rem;
+    padding: 0 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    z-index: 10;
+  
+}
+
+.checkBtn {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.checkBtn {
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 500;
+    float: right;
+    color: #ed1e79;
+    line-height: 80px;
+}
+
+.right ul {
+    display: flex;
+    list-style: none;
+}
+
+.right ul li a {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight:500;
+    color: #808080;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.right ul li a:hover {
+    background-color: #33FFC2;
+    border-radius: 7px;
+    color:#fff;
+}
+.contect{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.contect a{
+    text-decoration: none;
+}
+.contect a i{
+    color: #33FFC2;
+}
+
+.profile{
+    text-align: center;
+}
+
+.profile h2{
+    font-size: 3rem;
+    margin: 40px 0;
+}
+.profile p{
+    padding:0 20%;
+    padding-top: 25px;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.aboutus{
+    display: flex;
+    height: 70vh;
+    margin: 5vh 0;
+    flex-wrap: wrap;
+}
+
+.aboutus .vision{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/how-to-start-a-courier-business-1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    text-align: center;
+    padding-top: 10%;
+}
+.aboutus .vision h2,.awards h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+.aboutus .vision p,.awards p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 5% 20%;
+}
+.aboutus .vision button,.awards button{
+    height: 60px;
+    width: 25%;
+    margin-top: 3%;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    background-color: #33FFC2;
+    font-size: 20px;
+}
+.aboutus .awards{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/corporate_photographer_London_Anacap-42629.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.services{
+    text-align: center;
+    padding-top: 5%;
+}
+.services h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.services .service{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.services .service .service1 a{
+    text-decoration: none;
+}
+.services .service .service1 i{
+    font-size: 7rem;
+}
+.services .service i:hover{
+    color: #33FFC2;
+    transition: 0.5s;
+}
+.services .service h3{
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.services .service h3:hover{
+    color: #33FFC2;
+    transition: 0.5s;
+}
+
+.service p{
+    padding: 25px 10%;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.ourteam{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 3% 0;
+   
+}
+
+.ourteam h2{
+    font-size: 3rem;
+    padding: 3% 0;
+}
+
+.ourteam .team{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ourteam .team .member{
+    width: 25%;
+}
+
+.ourteam .team .member h3{
+    font-size: 2rem;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0;
+    flex-wrap: wrap;
+}
+
+.footer .social a i{
+    padding: 10vh 25px;
+    font-size: 28px;
+}
+
+.footer .social a i:hover{
+    color: #33FFC2;
+    transition: 0.5s;
+}
+
